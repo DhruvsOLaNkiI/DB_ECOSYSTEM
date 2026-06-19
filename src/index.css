@@ -1,0 +1,29 @@
+:root {
+  font-family: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background: linear-gradient(180deg, #050b24 0%, #6b7d96 55%, #f4f6f9 100%);
+  background-attachment: fixed;
+  color: #ffffff;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
