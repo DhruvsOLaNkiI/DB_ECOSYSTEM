@@ -159,13 +159,13 @@ function HomePage() {
                   title: "Powered by AI",
                   desc: "AI-driven discovery, ROI analysis, and portfolio insights — automating decisions so you spend less time on manual work.",
                   image:
-                    "https://images.unsplash.com/photo-1677442136019-21780ecad995?q=80&w=600&auto=format&fit=crop",
+                    "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?q=80&w=600&auto=format&fit=crop",
                 },
                 {
                   title: "Interoperability",
                   desc: "DB Expo, Assets, and Liquid work together seamlessly — with open APIs and integrations that connect to your existing tools.",
                   image:
-                    "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=600&auto=format&fit=crop",
+                    "https://cdn.prod.website-files.com/64503ed6cf0258a291478481/69614ebb442200ae3ecdcac7_ai-developer-ecosystems.png",
                 },
               ].map((card) => (
                 <article key={card.title} className="home-future-card">
