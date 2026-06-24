@@ -1,0 +1,47 @@
+.product-logo {
+  display: inline-flex;
+  align-items: baseline;
+  line-height: 1;
+  gap: 0;
+}
+
+.product-logo--brand {
+  font-family: "Plus Jakarta Sans", system-ui, sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  letter-spacing: -1.5px;
+}
+
+.product-logo--brand.product-logo--md {
+  font-size: clamp(36px, 5vw, 48px);
+  animation: product-logo-glow 3.2s ease-in-out infinite;
+}
+
+.product-logo--brand.product-logo--sm {
+  font-size: 14px;
+  letter-spacing: -0.4px;
+}
+
+.product-logo--brand.product-logo--lg {
+  font-size: clamp(28px, 4vw, 36px);
+  letter-spacing: -1px;
+}
+
+.product-logo-db {
+  color: #f97316;
+  text-shadow: 0 0 8px rgba(249, 115, 22, 0.35);
+}
+
+.product-logo-name {
+  color: #ffffff;
+  text-shadow: 0 0 6px rgba(255, 255, 255, 0.2);
+}
+
+@keyframes product-logo-glow {
+  0%, 100% {
+    filter: drop-shadow(0 0 2px rgba(249, 115, 22, 0.15));
+  }
+  50% {
+    filter: drop-shadow(0 0 6px rgba(249, 115, 22, 0.3));
+  }
+}

@@ -1,6 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import ProductLogo from "./ProductLogo.jsx";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -121,17 +122,23 @@ export default function EcosystemIntro() {
           </div>
           <div className="home-orbit-node home-orbit-node--expo">
             <div className="home-orbit-icon home-orbit-icon--expo">{ORBIT_ICONS.expo}</div>
-            <strong>DB Expo</strong>
+            <strong>
+              <ProductLogo product="expo" size="sm" />
+            </strong>
             <span>Discover. Engage. Generate Leads.</span>
           </div>
           <div className="home-orbit-node home-orbit-node--assets">
             <div className="home-orbit-icon home-orbit-icon--assets">{ORBIT_ICONS.assets}</div>
-            <strong>DB Assets</strong>
+            <strong>
+              <ProductLogo product="assets" size="sm" />
+            </strong>
             <span>Manage. Analyze. Grow Assets.</span>
           </div>
           <div className="home-orbit-node home-orbit-node--liquid">
             <div className="home-orbit-icon home-orbit-icon--liquid">{ORBIT_ICONS.liquid}</div>
-            <strong>DB Liquid</strong>
+            <strong>
+              <ProductLogo product="liquid" size="sm" />
+            </strong>
             <span>Invest. Trade. Unlock Liquidity.</span>
           </div>
         </div>

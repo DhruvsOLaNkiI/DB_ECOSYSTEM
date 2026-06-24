@@ -306,12 +306,12 @@ export default function DBAssets() {
             <div className="da-trust-content">
               <span className="da-eyebrow">Trust & Security</span>
               <h2 className="da-trust-heading">
-                Bank-Level Security for Your Real Estate Wealth.
+                Bank-grade encryption for your real estate data.
               </h2>
               <p className="da-trust-copy">
-                Your financial data is protected with 256-bit AES encryption. We
-                don&apos;t sell your data, and your portfolio details remain
-                strictly confidential.
+                Protected with 256-bit AES encryption at rest and TLS in transit.
+                Role-based access, secure authentication, and strict data privacy —
+                we never sell your portfolio information.
               </p>
             </div>
           </div>

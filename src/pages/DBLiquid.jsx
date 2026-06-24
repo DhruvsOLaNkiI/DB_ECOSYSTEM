@@ -7,26 +7,21 @@ import "./DBLiquid.css";
 const HERO_IMAGE =
   "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=2000&auto=format&fit=crop";
 
-const MECHANICS = [
+const STEPS = [
   {
     num: "01",
-    title: "Smart Baseline",
-    desc: "A seller instantly benchmarks asset expectations against localized data indexes — replacing guesswork with evidence-backed starting points.",
+    title: "List for Free",
+    desc: "Create your property listing in minutes at absolutely zero cost.",
   },
   {
     num: "02",
-    title: "Open Order Book",
-    desc: "Verified buyers place transparent, competitive bids, creating a live, healthy bidding pool with full visibility into market demand.",
+    title: "Let Investors Bid",
+    desc: "Sit back as interested investors bid on your property. You maintain total control and sell only to the highest bidder.",
   },
   {
     num: "03",
-    title: "Real-Time Optimization",
-    desc: "The matching engine maintains transparency logs and pushes instant alerts to drive competitive valuation peaks within the bidding window.",
-  },
-  {
-    num: "04",
-    title: "The Escrow Lock",
-    desc: "Once a bid is accepted, the platform transitions the transaction into a secure legal lock — binding commitment before paperwork begins.",
+    title: "Close the Deal Instantly",
+    desc: "Skip the endless paperwork delays. Generate your Agreement to Sell and Memorandum of Understanding (MoU) in seconds.",
   },
 ];
 
@@ -66,40 +61,75 @@ export default function DBLiquid() {
             <div className="dl-hero-photo-overlay" />
           </div>
           <div className="dl-hero-editorial-inner">
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ delay: 0.15, duration: 0.6 }}
-              className="dl-hero-eyebrow"
-            >
-              <span className="dl-hero-eyebrow-brand">DB Liquid</span>
-              <span className="dl-hero-eyebrow-dot" aria-hidden="true" />
-              <span>Core Vision</span>
-            </motion.div>
             <motion.h1
               initial={{ opacity: 0, y: 24 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ delay: 0.25, duration: 0.7 }}
+              transition={{ delay: 0.15, duration: 0.7 }}
               className="dl-hero-serif"
             >
-              Dissolving Real Estate Inertia.
-              <br />
-              We Build True Market Liquidity.
+              Sell Your Property Fast. Zero Brokerage. Highest Bidder.
             </motion.h1>
             <motion.p
               initial={{ opacity: 0, y: 24 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ delay: 0.35, duration: 0.7 }}
+              transition={{ delay: 0.25, duration: 0.7 }}
               className="dl-hero-lead"
             >
-              A deep dive into how DB Liquid replaces stagnant, traditional
-              secondary property sales with an agile, transparent, and
-              time-bound bidding mechanism.
+              Welcome to DB Liquid—the smartest platform to liquidate your real
+              estate. List your property, let verified investors bid, and close
+              the deal instantly.
             </motion.p>
+            <motion.div
+              initial={{ opacity: 0, y: 24 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ delay: 0.35, duration: 0.7 }}
+              className="dl-hero-actions"
+            >
+              <button type="button" className="dl-btn-primary">
+                👉 List Your Property for Free
+              </button>
+            </motion.div>
           </div>
         </motion.section>
 
-        {/* 2. The Problem Gap */}
+        {/* 2. Step-by-Step Mechanics */}
+        <motion.section
+          className="dl-section dl-mechanics"
+          variants={staggerContainer}
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true, amount: 0.15 }}
+        >
+          <motion.div variants={fadeInUp} className="dl-section-head">
+            <span className="dl-eyebrow">How It Works — The DB Liquid Advantage</span>
+            <h2 className="dl-section-title">
+              Liquidate Your Assets in 3 Simple Steps
+            </h2>
+          </motion.div>
+
+          <div className="dl-timeline">
+            {STEPS.map((step, index) => (
+              <motion.article
+                key={step.num}
+                variants={fadeInUp}
+                className="dl-timeline-step"
+              >
+                <div className="dl-timeline-marker">
+                  <span className="dl-timeline-num">{step.num}</span>
+                  {index < STEPS.length - 1 && (
+                    <span className="dl-timeline-line" aria-hidden="true" />
+                  )}
+                </div>
+                <div className="dl-timeline-body">
+                  <h3 className="dl-timeline-title">{step.title}</h3>
+                  <p className="dl-timeline-desc">{step.desc}</p>
+                </div>
+              </motion.article>
+            ))}
+          </div>
+        </motion.section>
+
+        {/* 3. The Problem Gap */}
         <motion.section
           className="dl-section dl-gap"
           variants={staggerContainer}
@@ -156,111 +186,26 @@ export default function DBLiquid() {
           </div>
         </motion.section>
 
-        {/* 3. Step-by-Step Mechanics */}
+        {/* 4. Transparent Pricing */}
         <motion.section
-          className="dl-section dl-mechanics"
+          className="dl-section dl-pricing"
           variants={staggerContainer}
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.15 }}
         >
-          <motion.div variants={fadeInUp} className="dl-section-head">
-            <span className="dl-eyebrow">How It Works</span>
-            <h2 className="dl-section-title">
-              The technical blueprint of a transaction.
-            </h2>
-            <p className="dl-section-intro dl-section-intro--light">
-              Not a listing shop — a structured mechanism that turns secondary
-              sales into competitive, time-bound market events.
-            </p>
-          </motion.div>
-
-          <div className="dl-timeline">
-            {MECHANICS.map((step, index) => (
-              <motion.article
-                key={step.num}
-                variants={fadeInUp}
-                className="dl-timeline-step"
-              >
-                <div className="dl-timeline-marker">
-                  <span className="dl-timeline-num">{step.num}</span>
-                  {index < MECHANICS.length - 1 && (
-                    <span className="dl-timeline-line" aria-hidden="true" />
-                  )}
-                </div>
-                <div className="dl-timeline-body">
-                  <h3 className="dl-timeline-title">{step.title}</h3>
-                  <p className="dl-timeline-desc">{step.desc}</p>
-                </div>
-              </motion.article>
-            ))}
-          </div>
-        </motion.section>
-
-        {/* 4. Trust & Risk Protection */}
-        <motion.section
-          className="dl-section dl-escrow"
-          variants={staggerContainer}
-          initial="hidden"
-          whileInView="visible"
-          viewport={{ once: true, amount: 0.15 }}
-        >
-          <motion.div variants={fadeInUp} className="dl-section-head dl-section-head--center">
-            <span className="dl-eyebrow dl-eyebrow--dark">Trust & Risk Protection</span>
+          <motion.div variants={fadeInUp} className="dl-pricing-banner">
             <h2 className="dl-section-title dl-section-title--dark">
-              Token Money Escrow Contract
+              No Commission. No Hidden Brokerage.
             </h2>
-          </motion.div>
-
-          <motion.div variants={fadeInUp} className="dl-escrow-layout">
-            <div className="dl-escrow-main">
-              <p className="dl-escrow-lead">
-                Serious intent requires serious commitment. Our escrow
-                architecture ensures every accepted bid carries binding weight —
-                protecting sellers from casual offers and buyers from wasted
-                momentum.
-              </p>
-
-              <div className="dl-escrow-rule">
-                <div className="dl-escrow-rule-header">
-                  <span className="dl-escrow-badge">48-Hour Freeze</span>
-                  <h3 className="dl-escrow-rule-title">The exclusivity lock.</h3>
-                </div>
-                <p>
-                  The moment a seller accepts a top bid, the asset locks
-                  exclusively to that buyer. No re-listing. No parallel
-                  negotiations. The winning buyer must deposit a pre-calculated{" "}
-                  <strong>2% token money</strong> amount into escrow within{" "}
-                  <strong>48 hours</strong> to secure definitive exclusivity
-                  rights.
-                </p>
-                <p>
-                  This freeze stage exists to prevent casual or non-serious
-                  offers from derailing a seller&apos;s momentum. Token money
-                  signals commitment. Escrow protects both parties. The
-                  transaction advances only when intent is proven.
-                </p>
-              </div>
-            </div>
-
-            <aside className="dl-escrow-aside">
-              <div className="dl-escrow-stat">
-                <span className="dl-escrow-stat-value">48h</span>
-                <span className="dl-escrow-stat-label">Exclusivity window</span>
-              </div>
-              <div className="dl-escrow-stat">
-                <span className="dl-escrow-stat-value">2%</span>
-                <span className="dl-escrow-stat-label">Token money deposit</span>
-              </div>
-              <div className="dl-escrow-stat">
-                <span className="dl-escrow-stat-value">1</span>
-                <span className="dl-escrow-stat-label">Accepted bid per asset</span>
-              </div>
-              <p className="dl-escrow-aside-note">
-                Escrow holds token money until legal completion or governed
-                release — protecting seller momentum and buyer exclusivity.
-              </p>
-            </aside>
+            <p className="dl-pricing-copy">
+              Traditional selling eats into your profits. With DB Liquid, you
+              only pay a flat success fee of <strong>₹11,000</strong>—and only
+              after a successful sale. You keep the rest.
+            </p>
+            <button type="button" className="dl-btn-primary">
+              👉 Start Your Free Listing Now
+            </button>
           </motion.div>
         </motion.section>
 

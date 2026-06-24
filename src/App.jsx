@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import { Routes, Route, Link } from "react-router-dom";
+import React, { useEffect, useState } from "react";
+import { Routes, Route, Link, useLocation } from "react-router-dom";
 import { ECOSYSTEM_DATA } from "./data.js";
 import Navbar from "./components/Navbar.jsx";
 import Footer from "./components/Footer.jsx";
@@ -7,6 +7,7 @@ import DBAssets from "./pages/DBAssets.jsx";
 import DBExpo from "./pages/DBExpo.jsx";
 import DBLiquid from "./pages/DBLiquid.jsx";
 import EcosystemIntro from "./components/EcosystemIntro.jsx";
+import ProductLogo from "./components/ProductLogo.jsx";
 import "./App.css";
 
 
@@ -18,14 +19,9 @@ function EcoCard({ data }) {
 
   return (
     <div className="eco-box-col">
-      {data.id === "expo" ? (
-        <h3 className="eco-title eco-title-expo" aria-label="DB Expo">
-          <span className="eco-title-db">DB</span>
-          <span className="eco-title-name">Expo</span>
-        </h3>
-      ) : (
-        <h3 className="eco-title">{data.title}</h3>
-      )}
+      <h3 className="eco-title">
+        <ProductLogo product={data.id} />
+      </h3>
       <div className="eco-box">
         <div className={`eco-copy ${isExpandable && isExpanded ? "is-expanded" : ""}`}>
           <div className="eco-copy-text">
@@ -71,24 +67,27 @@ function EcoCard({ data }) {
 }
 
 function HomePage() {
+  const scrollToProducts = () => {
+    document.getElementById("products")?.scrollIntoView({
+      behavior: "smooth",
+      block: "center",
+    });
+  };
+
   return (
     <div className="app">
       <div className="app-content">
       <Navbar />
 
       <main className="hero">
-        <div className="hero-eyebrow">
-          <span className="eyebrow-icon">✦</span> Digital Ecosystem
-        </div>
         <h1 className="hero-title">
-          <span className="title-sans">Digital Broker.</span>
+          <span className="title-sans">Digital Broker.in</span>
           <br />
-          <span className="title-serif">Modern Real Estate.</span>
+          <span className="title-serif">Manage,Discover,Liquid</span>
         </h1>
         <p className="hero-desc">
-          DigitalBroker is a digital ecosystem for modern-day real estate — an
-          ecosystem where buying, managing, and selling are driven by
-          future-ready technologies with minimal human intervention.
+          DigitalBroker is a digital ecosystem for modern day real estate challanges ,an
+          ecosystem 
         </p>
       </main>
 
@@ -116,44 +115,39 @@ function HomePage() {
       {/* Section 4 — Built for the Future */}
       <section className="home-section home-future">
         <div className="home-future-inner">
+          <div className="home-future-head">
+            <h2 className="home-section-heading">Built for the Future</h2>
+            <p className="home-section-sub">
+              Continuously evolving. Expanding possibilities.
+            </p>
+          </div>
+
           <div className="home-future-layout">
-            <div className="home-future-aside">
-              <h2 className="home-section-heading">Built for the Future</h2>
-              <p className="home-section-sub">
-                Continuously evolving. Expanding possibilities.
+            <div className="home-future-feature">
+              <p className="home-future-feature-lead">
+                Real estate is entering a new era ,one where technology
+                connects every step of the journey.
               </p>
-              <div className="home-future-feature">
-                <p className="home-future-feature-lead">
-                  Real estate is entering a new era — one where technology
-                  connects every step of the journey.
-                </p>
-                <p className="home-future-feature-body">
-                  DigitalBroker is building the infrastructure for that future:
-                  intelligent platforms that reduce friction, increase
-                  transparency, and unlock value for everyone in the
-                  ecosystem.
-                </p>
-                <ul className="home-future-feature-list">
-                  <li>AI-driven property discovery and lead generation</li>
-                  <li>Unified asset management across portfolios</li>
-                  <li>Liquid markets for real estate investment</li>
-                </ul>
-              </div>
+              <p className="home-future-feature-body">
+                DigitalBroker is building the infrastructure for that future:
+                intelligent platforms that reduce friction, increase
+                transparency, and unlock value for everyone in the
+                ecosystem.
+              </p>
+              <ul className="home-future-feature-list">
+                <li>AI-driven property discovery and lead generation</li>
+                <li>Unified asset management across portfolios</li>
+                <li>Liquid markets for real estate investment</li>
+              </ul>
             </div>
 
             <div className="home-future-grid">
               {[
                 {
-                  title: "Scalable Ecosystem",
-                  desc: "Built to scale with your business and adapt to future needs.",
+                  title: "Security",
+                  desc: "256-bit AES encryption at rest, TLS in transit, and secure access controls. Your data stays protected — we never sell it to third parties.",
                   image:
-                    "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=600&auto=format&fit=crop",
-                },
-                {
-                  title: "Open & Integrated",
-                  desc: "APIs and integrations that connect with your favorite tools.",
-                  image:
-                    "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=600&auto=format&fit=crop",
+                    "https://images.unsplash.com/photo-1563013544-824ae1b704d3?q=80&w=600&auto=format&fit=crop",
                 },
                 {
                   title: "Global Reach",
@@ -162,10 +156,16 @@ function HomePage() {
                     "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop",
                 },
                 {
-                  title: "Future-Ready",
-                  desc: "New products and features are constantly being developed.",
+                  title: "Powered by AI",
+                  desc: "AI-driven discovery, ROI analysis, and portfolio insights — automating decisions so you spend less time on manual work.",
                   image:
-                    "https://images.unsplash.com/photo-1560518883-ce09059eeffa?q=80&w=600&auto=format&fit=crop",
+                    "https://images.unsplash.com/photo-1677442136019-21780ecad995?q=80&w=600&auto=format&fit=crop",
+                },
+                {
+                  title: "Interoperability",
+                  desc: "DB Expo, Assets, and Liquid work together seamlessly — with open APIs and integrations that connect to your existing tools.",
+                  image:
+                    "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=600&auto=format&fit=crop",
                 },
               ].map((card) => (
                 <article key={card.title} className="home-future-card">
@@ -173,8 +173,10 @@ function HomePage() {
                     <img src={card.image} alt="" loading="lazy" />
                     <div className="home-future-card-img-overlay" aria-hidden="true" />
                   </div>
-                  <h3>{card.title}</h3>
-                  <p>{card.desc}</p>
+                  <div className="home-future-card-body">
+                    <h3>{card.title}</h3>
+                    <p>{card.desc}</p>
+                  </div>
                 </article>
               ))}
             </div>
@@ -188,10 +190,12 @@ function HomePage() {
           Three Products. One Connected Real Estate Ecosystem.
         </h2>
         <p className="home-cta-desc">
-          Discover, Manage, Invest. All connected. DigitalBroker empowers the
+          Discover, Manage, Liquid. All connected. DigitalBroker empowers the
           complete real estate journey.
         </p>
-        <button className="home-cta-btn">Explore Ecosystem →</button>
+        <button type="button" className="home-cta-btn" onClick={scrollToProducts}>
+          Explore Ecosystem →
+        </button>
       </section>
 
       <Footer />
@@ -201,6 +205,24 @@ function HomePage() {
 }
 
 export default function App() {
+  const location = useLocation();
+
+  useEffect(() => {
+    if (location.hash) {
+      const targetId = location.hash.slice(1);
+      const target = document.getElementById(targetId);
+      if (target) {
+        target.scrollIntoView({
+          behavior: "smooth",
+          block: targetId === "products" ? "center" : "start",
+        });
+        return;
+      }
+    }
+
+    window.scrollTo({ top: 0, left: 0, behavior: "auto" });
+  }, [location.pathname, location.hash]);
+
   return (
     <Routes>
       <Route path="/" element={<HomePage />} />

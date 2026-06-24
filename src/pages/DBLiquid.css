@@ -172,8 +172,36 @@
   line-height: 1.75;
   color: rgba(255, 255, 255, 0.72);
   max-width: 620px;
-  margin: 0;
+  margin: 0 0 36px;
   font-weight: 400;
+}
+
+.dl-hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.dl-btn-primary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px 28px;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  color: #0a0604;
+  background: linear-gradient(135deg, #f97316 0%, #fb923c 100%);
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  box-shadow: 0 8px 32px rgba(249, 115, 22, 0.35);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.dl-btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 40px rgba(249, 115, 22, 0.45);
 }
 
 /* ─── Problem Gap ────────────────────────────── */
@@ -270,8 +298,6 @@
 /* ─── Mechanics timeline ─────────────────────── */
 .dl-mechanics {
   background: rgba(0, 0, 0, 0.35);
-  border-top: 1px solid rgba(249, 115, 22, 0.12);
-  border-bottom: 1px solid rgba(249, 115, 22, 0.12);
   max-width: 100%;
   padding-left: 0;
   padding-right: 0;
@@ -347,7 +373,34 @@
   max-width: 640px;
 }
 
-/* ─── Escrow / Trust architecture ────────────── */
+/* ─── Transparent Pricing ────────────────────── */
+.dl-pricing {
+  background: transparent;
+}
+
+.dl-pricing-banner {
+  text-align: center;
+  padding: 56px 48px;
+  background: rgba(249, 115, 22, 0.08);
+  border: 1px solid rgba(249, 115, 22, 0.28);
+  border-radius: 24px;
+  box-shadow: 0 0 60px rgba(249, 115, 22, 0.1);
+}
+
+.dl-pricing-copy {
+  font-size: 17px;
+  line-height: 1.75;
+  color: rgba(255, 255, 255, 0.65);
+  margin: 0 auto 32px;
+  max-width: 640px;
+}
+
+.dl-pricing-copy strong {
+  color: #f97316;
+  font-weight: 700;
+}
+
+/* ─── Escrow / Trust architecture (legacy) ───── */
 .dl-escrow {
   background: transparent;
 }
@@ -497,6 +550,10 @@
 
   .dl-gap-col {
     padding: 32px 24px;
+  }
+
+  .dl-pricing-banner {
+    padding: 40px 28px;
   }
 
   .dl-timeline-step {

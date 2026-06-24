@@ -1,0 +1,102 @@
+{
+  ".claude/settings.json": {
+    "mtime": 1782289570.2031376,
+    "ast_hash": "8a80554c91d9fca8acb82f023de02f11",
+    "semantic_hash": ""
+  },
+  "package.json": {
+    "mtime": 1781859129.5769784,
+    "ast_hash": "dae902d308df0a107e0468f8dac5794b",
+    "semantic_hash": ""
+  },
+  "src/App.jsx": {
+    "mtime": 1782281959.7755718,
+    "ast_hash": "c8d691ac2b22f4c289a7e113ea7e6ac8",
+    "semantic_hash": ""
+  },
+  "src/components/EcosystemIntro.jsx": {
+    "mtime": 1782281960.6450164,
+    "ast_hash": "86e3a13953a1b8d86647c77962e793d0",
+    "semantic_hash": ""
+  },
+  "src/components/ElectricBorder.jsx": {
+    "mtime": 1781849270.994147,
+    "ast_hash": "81d2c6df4f4581e20f6975b5480aec38",
+    "semantic_hash": ""
+  },
+  "src/components/Footer.jsx": {
+    "mtime": 1782281961.3617764,
+    "ast_hash": "041406bcd2c7247ffc2cb824e502fb14",
+    "semantic_hash": ""
+  },
+  "src/components/Lightfall.jsx": {
+    "mtime": 1781785555.6041012,
+    "ast_hash": "c22b669a9848fd0c30ed0379215797c3",
+    "semantic_hash": ""
+  },
+  "src/components/Navbar.jsx": {
+    "mtime": 1782213823.798619,
+    "ast_hash": "43ac67c44573f815c21f5d462eb3b3da",
+    "semantic_hash": ""
+  },
+  "src/components/Prism.jsx": {
+    "mtime": 1781784865.1879222,
+    "ast_hash": "116cd899893030313552e1fbbbb3bae0",
+    "semantic_hash": ""
+  },
+  "src/data.js": {
+    "mtime": 1782282919.7637756,
+    "ast_hash": "cbfd6c3d132696ce668b6399f45946b6",
+    "semantic_hash": ""
+  },
+  "src/main.jsx": {
+    "mtime": 1781776993.2597733,
+    "ast_hash": "1f32d8a821ec9d9aef2250138ae8674e",
+    "semantic_hash": ""
+  },
+  "src/pages/DBAssets.jsx": {
+    "mtime": 1782281966.7409368,
+    "ast_hash": "bb037291d27c7555f3a35364e0c6aa59",
+    "semantic_hash": ""
+  },
+  "src/pages/DBExpo.jsx": {
+    "mtime": 1782281964.226923,
+    "ast_hash": "3013d3d1e7e4f24625f4202a6133ad95",
+    "semantic_hash": ""
+  },
+  "src/pages/DBLiquid.jsx": {
+    "mtime": 1782283744.055557,
+    "ast_hash": "eb3390cb878de5e3db667fcf605d3924",
+    "semantic_hash": ""
+  },
+  "vite.config.js": {
+    "mtime": 1781604457.4884794,
+    "ast_hash": "2dc51eadd3ccf3ed74f72d3e85c05442",
+    "semantic_hash": ""
+  },
+  "index.html": {
+    "mtime": 1782281967.1734993,
+    "ast_hash": "b8dd133f369dcdf062675164c3f6995c",
+    "semantic_hash": ""
+  },
+  "src/design.md": {
+    "mtime": 1781787644.3318374,
+    "ast_hash": "b543d2c10adb5c47fb21b294ea471bc8",
+    "semantic_hash": ""
+  },
+  "public/assets/portfolio-analytics-hero.png": {
+    "mtime": 1781946333.6719108,
+    "ast_hash": "682b3d066a74a5f8325fc06cce1d32a1",
+    "semantic_hash": ""
+  },
+  "public/assets/portfolio-analytics.png": {
+    "mtime": 1781945583.4089746,
+    "ast_hash": "5cef18f3aae07abd1326481a177b86b4",
+    "semantic_hash": ""
+  },
+  "public/favicon.svg": {
+    "mtime": 1781604542.8841007,
+    "ast_hash": "1913df751f7f4317c2e16d156a889b4a",
+    "semantic_hash": ""
+  }
+}

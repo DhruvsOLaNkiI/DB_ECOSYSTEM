@@ -14,7 +14,7 @@ export const ECOSYSTEM_DATA = [
   },
   {
     id: "assets",
-    title: "DB Assets",
+    title: "DB Asset",
     paragraphs: [
       "Track exact real estate ROI. Instantly monitor valuations, capital appreciation, and rental yields across all assets in one unified dashboard.",
     ],
