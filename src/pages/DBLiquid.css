@@ -1,0 +1,515 @@
+/* DB Liquid — Digital Broker dark + orange theme */
+.dl-page {
+  position: relative;
+  min-height: 100vh;
+  background: #0a0604;
+  color: #ffffff;
+  font-family: "Plus Jakarta Sans", "Inter", system-ui, sans-serif;
+  font-weight: 500;
+  overflow-x: hidden;
+}
+
+.dl-bg {
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  background:
+    radial-gradient(ellipse 60% 50% at 78% 8%, rgba(249, 115, 22, 0.28) 0%, transparent 58%),
+    radial-gradient(ellipse 45% 40% at 18% 22%, rgba(180, 83, 9, 0.12) 0%, transparent 55%),
+    linear-gradient(180deg, #14100e 0%, #0a0806 38%, #000000 100%);
+}
+
+.dl-page-content {
+  position: relative;
+  z-index: 1;
+}
+
+.dl-eyebrow {
+  display: inline-block;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #f97316;
+  margin-bottom: 20px;
+}
+
+.dl-eyebrow--dark {
+  color: #f97316;
+}
+
+.dl-section {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 100px 32px;
+}
+
+.dl-section-head {
+  margin-bottom: 56px;
+  max-width: 680px;
+}
+
+.dl-section-head--center {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  max-width: 720px;
+}
+
+.dl-section-title {
+  font-size: clamp(30px, 4.5vw, 44px);
+  font-weight: 800;
+  letter-spacing: -1.2px;
+  line-height: 1.12;
+  color: #ffffff;
+  margin-bottom: 16px;
+}
+
+.dl-section-title--dark {
+  color: #ffffff;
+}
+
+.dl-section-intro {
+  font-size: 17px;
+  line-height: 1.7;
+  color: rgba(255, 255, 255, 0.58);
+  margin: 0;
+}
+
+.dl-section-intro--light {
+  color: rgba(255, 255, 255, 0.62);
+}
+
+/* ─── Hero: full-bleed editorial ─────────────── */
+.dl-hero-editorial {
+  position: relative;
+  min-height: 88vh;
+  display: flex;
+  align-items: flex-end;
+  margin-top: 0;
+  overflow: hidden;
+}
+
+.dl-hero-photo {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+}
+
+.dl-hero-photo-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}
+
+.dl-hero-photo-overlay {
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(180deg, rgba(10, 6, 4, 0.82) 0%, rgba(10, 6, 4, 0.45) 38%, rgba(0, 0, 0, 0.95) 100%),
+    linear-gradient(90deg, rgba(20, 10, 6, 0.75) 0%, transparent 55%),
+    radial-gradient(ellipse 70% 50% at 80% 20%, rgba(249, 115, 22, 0.18) 0%, transparent 60%);
+}
+
+.dl-hero-editorial-inner {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 160px 32px 100px;
+}
+
+.dl-hero-eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 28px;
+  padding: 10px 18px;
+  border-radius: 99px;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.92);
+  background: rgba(249, 115, 22, 0.12);
+  border: 1px solid rgba(249, 115, 22, 0.35);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  box-shadow: 0 4px 24px rgba(249, 115, 22, 0.15);
+}
+
+.dl-hero-eyebrow-brand {
+  color: #f97316;
+  font-weight: 700;
+}
+
+.dl-hero-eyebrow-dot {
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: rgba(249, 115, 22, 0.6);
+  flex-shrink: 0;
+}
+
+.dl-hero-serif {
+  font-family: "Playfair Display", Georgia, serif;
+  font-size: clamp(38px, 5.5vw, 64px);
+  font-weight: 700;
+  font-style: italic;
+  line-height: 1.08;
+  letter-spacing: -0.5px;
+  color: #ffffff;
+  margin-bottom: 28px;
+  max-width: 820px;
+}
+
+.dl-hero-lead {
+  font-size: clamp(16px, 2vw, 19px);
+  line-height: 1.75;
+  color: rgba(255, 255, 255, 0.72);
+  max-width: 620px;
+  margin: 0;
+  font-weight: 400;
+}
+
+/* ─── Problem Gap ────────────────────────────── */
+.dl-gap {
+  background: transparent;
+}
+
+.dl-gap-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px;
+}
+
+.dl-gap-col {
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 20px;
+  padding: 44px 40px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
+}
+
+.dl-gap-col--stagnant {
+  border-top: 3px solid rgba(148, 163, 184, 0.6);
+}
+
+.dl-gap-col--liquid {
+  border-top: 3px solid #f97316;
+  background: rgba(249, 115, 22, 0.06);
+  border-color: rgba(249, 115, 22, 0.2);
+}
+
+.dl-gap-label {
+  display: block;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.45);
+  margin-bottom: 16px;
+}
+
+.dl-gap-col--liquid .dl-gap-label {
+  color: #f97316;
+}
+
+.dl-gap-heading {
+  font-size: 24px;
+  font-weight: 800;
+  letter-spacing: -0.5px;
+  line-height: 1.25;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.dl-gap-col p {
+  font-size: 16px;
+  line-height: 1.75;
+  color: rgba(255, 255, 255, 0.62);
+  margin: 0 0 24px;
+}
+
+.dl-gap-points {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.dl-gap-points li {
+  position: relative;
+  padding-left: 22px;
+  font-size: 14px;
+  line-height: 1.55;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.dl-gap-points li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 8px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.25);
+}
+
+.dl-gap-col--liquid .dl-gap-points li::before {
+  background: #f97316;
+}
+
+/* ─── Mechanics timeline ─────────────────────── */
+.dl-mechanics {
+  background: rgba(0, 0, 0, 0.35);
+  border-top: 1px solid rgba(249, 115, 22, 0.12);
+  border-bottom: 1px solid rgba(249, 115, 22, 0.12);
+  max-width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.dl-mechanics > * {
+  max-width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 32px;
+  padding-right: 32px;
+}
+
+.dl-timeline {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  padding-bottom: 20px;
+}
+
+.dl-timeline-step {
+  display: grid;
+  grid-template-columns: 80px 1fr;
+  gap: 32px;
+  padding: 36px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.dl-timeline-step:last-child {
+  border-bottom: none;
+}
+
+.dl-timeline-marker {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dl-timeline-num {
+  font-size: 14px;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  color: #f97316;
+  background: rgba(249, 115, 22, 0.12);
+  border: 1px solid rgba(249, 115, 22, 0.3);
+  border-radius: 10px;
+  padding: 10px 14px;
+  line-height: 1;
+}
+
+.dl-timeline-line {
+  flex: 1;
+  width: 1px;
+  min-height: 40px;
+  margin-top: 12px;
+  background: linear-gradient(180deg, rgba(249, 115, 22, 0.45), rgba(249, 115, 22, 0.05));
+}
+
+.dl-timeline-title {
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: -0.3px;
+  color: #ffffff;
+  margin-bottom: 12px;
+}
+
+.dl-timeline-desc {
+  font-size: 16px;
+  line-height: 1.7;
+  color: rgba(255, 255, 255, 0.58);
+  margin: 0;
+  max-width: 640px;
+}
+
+/* ─── Escrow / Trust architecture ────────────── */
+.dl-escrow {
+  background: transparent;
+}
+
+.dl-escrow-layout {
+  display: grid;
+  grid-template-columns: 1.4fr 0.6fr;
+  gap: 48px;
+  align-items: start;
+}
+
+.dl-escrow-lead {
+  font-size: 18px;
+  line-height: 1.75;
+  color: rgba(255, 255, 255, 0.62);
+  margin: 0 0 36px;
+  max-width: 640px;
+}
+
+.dl-escrow-rule {
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-left: 4px solid #f97316;
+  border-radius: 16px;
+  padding: 36px 40px;
+}
+
+.dl-escrow-rule-header {
+  margin-bottom: 20px;
+}
+
+.dl-escrow-badge {
+  display: inline-block;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #f97316;
+  background: rgba(249, 115, 22, 0.12);
+  padding: 6px 12px;
+  border-radius: 99px;
+  margin-bottom: 14px;
+}
+
+.dl-escrow-rule-title {
+  font-size: 22px;
+  font-weight: 800;
+  letter-spacing: -0.4px;
+  color: #ffffff;
+  margin: 0;
+}
+
+.dl-escrow-rule p {
+  font-size: 16px;
+  line-height: 1.75;
+  color: rgba(255, 255, 255, 0.62);
+  margin: 0 0 16px;
+}
+
+.dl-escrow-rule p:last-child {
+  margin-bottom: 0;
+}
+
+.dl-escrow-rule strong {
+  color: #f97316;
+  font-weight: 700;
+}
+
+.dl-escrow-aside {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  position: sticky;
+  top: 120px;
+}
+
+.dl-escrow-stat {
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(249, 115, 22, 0.2);
+  border-radius: 14px;
+  padding: 24px 28px;
+  text-align: center;
+}
+
+.dl-escrow-stat-value {
+  display: block;
+  font-size: 36px;
+  font-weight: 800;
+  letter-spacing: -1px;
+  color: #f97316;
+  line-height: 1;
+  margin-bottom: 8px;
+}
+
+.dl-escrow-stat-label {
+  font-size: 13px;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.5);
+  letter-spacing: 0.02em;
+}
+
+.dl-escrow-aside-note {
+  font-size: 14px;
+  line-height: 1.65;
+  color: rgba(255, 255, 255, 0.45);
+  margin: 8px 0 0;
+  padding: 0 8px;
+  text-align: center;
+}
+
+/* ─── Responsive ─────────────────────────────── */
+@media (max-width: 968px) {
+  .dl-gap-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .dl-escrow-layout {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .dl-escrow-aside {
+    position: static;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .dl-escrow-stat {
+    flex: 1;
+    min-width: 140px;
+  }
+
+  .dl-escrow-aside-note {
+    width: 100%;
+  }
+}
+
+@media (max-width: 640px) {
+  .dl-section {
+    padding: 72px 20px;
+  }
+
+  .dl-hero-editorial-inner {
+    padding: 140px 20px 72px;
+  }
+
+  .dl-gap-col {
+    padding: 32px 24px;
+  }
+
+  .dl-timeline-step {
+    grid-template-columns: 56px 1fr;
+    gap: 20px;
+    padding: 28px 0;
+  }
+
+  .dl-escrow-rule {
+    padding: 28px 24px;
+  }
+
+  .dl-escrow-aside {
+    flex-direction: column;
+  }
+}

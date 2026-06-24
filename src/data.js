@@ -5,8 +5,8 @@ export const ECOSYSTEM_DATA = [
     title: "DB Expo",
     paragraphs: [
       "DB Expo is a discovery platform designed to replicate property expos, eliminating the need to physically visit different real estate projects.",
-      "It creates an immersive, interactive environment where home buyers and investors can explore real estate projects, services, and finance partners under one \"virtual roof.\"",
-      "DB Expo is launching its first-ever event in July 2026: \"Virtual Property Expo - 2026.\"",
+      "It creates an immersive, interactive environment where homebuyers and investors can explore real estate projects, services, and finance partners under one \"virtual roof.\"",
+      "DB Expo is launching its first-ever event in July 2026: \"Virtual Property Expo — 2026.\"",
     ],
     link: "/expo",
     buttonText: "Know more",
@@ -16,7 +16,7 @@ export const ECOSYSTEM_DATA = [
     id: "assets",
     title: "DB Assets",
     paragraphs: [
-      "Manage your real estate portfolio, track valuations, and automate property operations.",
+      "Track exact real estate ROI. Instantly monitor valuations, capital appreciation, and rental yields across all assets in one unified dashboard.",
     ],
     link: "/assets",
     buttonText: "Know more",
@@ -26,7 +26,7 @@ export const ECOSYSTEM_DATA = [
     id: "liquid",
     title: "DB Liquid",
     paragraphs: [
-      "Unlock liquidity with fractional ownership and seamless real estate trading.",
+      "A transparent marketplace where buyers bid on listings and sellers accept the highest offer, matching instantly via secure token money deposits..",
     ],
     link: "/liquid",
     buttonText: "Know more",

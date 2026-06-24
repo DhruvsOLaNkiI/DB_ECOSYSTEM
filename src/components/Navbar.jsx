@@ -7,7 +7,6 @@ const TABS = [
   { id: "expo",       label: "DB Expo",    href: "/expo" },
   { id: "assets",     label: "DB Assets",  href: "/assets" },
   { id: "liquid",     label: "DB Liquid",  href: "/liquid" },
-  { id: "philosophy", label: "Philosophy", href: "/philosophy" },
 ];
 
 export default function Navbar() {
@@ -18,11 +17,11 @@ export default function Navbar() {
 
   return (
     <div className="topbar-container">
-      <nav className="topbar" role="navigation" aria-label="Main navigation">
-        <Link to="/" className="main-logo">
-          Digital<span className="logo-accent">Broker</span>
-        </Link>
+      <Link to="/" className="main-logo">
+        Digital<span className="logo-accent">Broker</span>
+      </Link>
 
+      <nav className="topbar" role="navigation" aria-label="Main navigation">
         <div className="topbar-links">
           {TABS.map((tab) => (
             <Link

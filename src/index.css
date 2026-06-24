@@ -1,5 +1,9 @@
 :root {
   font-family: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+  --db-navy: #050b24;
+  --db-blue-mid: #6b7d96;
+  --db-light: #f4f6f9;
+  --db-orange: #f97316;
 }
 
 * {
@@ -16,7 +20,14 @@ body,
 }
 
 body {
-  background: linear-gradient(180deg, #050b24 0%, #6b7d96 55%, #f4f6f9 100%);
+  background: linear-gradient(
+    180deg,
+    var(--db-navy) 0%,
+    #1a2744 35%,
+    var(--db-blue-mid) 62%,
+    #b8c4d4 82%,
+    var(--db-light) 100%
+  );
   background-attachment: fixed;
   color: #ffffff;
   -webkit-font-smoothing: antialiased;
