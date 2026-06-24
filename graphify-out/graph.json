@@ -2,8 +2,954 @@
   "directed": false,
   "multigraph": false,
   "graph": {},
-  "nodes": [],
-  "links": [],
+  "nodes": [
+    {
+      "label": "App.jsx",
+      "file_type": "code",
+      "source_file": "src/App.jsx",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "src_app",
+      "community": 3,
+      "norm_label": "app.jsx"
+    },
+    {
+      "label": "EcoCard()",
+      "file_type": "code",
+      "source_file": "src/App.jsx",
+      "source_location": "L14",
+      "_origin": "ast",
+      "id": "src_app_ecocard",
+      "community": 3,
+      "norm_label": "ecocard()"
+    },
+    {
+      "label": "HomePage()",
+      "file_type": "code",
+      "source_file": "src/App.jsx",
+      "source_location": "L69",
+      "_origin": "ast",
+      "id": "src_app_homepage",
+      "community": 3,
+      "norm_label": "homepage()"
+    },
+    {
+      "label": "App()",
+      "file_type": "code",
+      "source_file": "src/App.jsx",
+      "source_location": "L207",
+      "_origin": "ast",
+      "id": "src_app_app",
+      "community": 3,
+      "norm_label": "app()"
+    },
+    {
+      "label": "EcosystemIntro.jsx",
+      "file_type": "code",
+      "source_file": "src/components/EcosystemIntro.jsx",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "components_ecosystemintro",
+      "community": 4,
+      "norm_label": "ecosystemintro.jsx"
+    },
+    {
+      "label": "ORBIT_ICONS",
+      "file_type": "code",
+      "source_file": "src/components/EcosystemIntro.jsx",
+      "source_location": "L8",
+      "_origin": "ast",
+      "id": "components_ecosystemintro_orbit_icons",
+      "community": 4,
+      "norm_label": "orbit_icons"
+    },
+    {
+      "label": "EcosystemIntro()",
+      "file_type": "code",
+      "source_file": "src/components/EcosystemIntro.jsx",
+      "source_location": "L33",
+      "_origin": "ast",
+      "id": "components_ecosystemintro_ecosystemintro",
+      "community": 4,
+      "norm_label": "ecosystemintro()"
+    },
+    {
+      "label": "Navbar.jsx",
+      "file_type": "code",
+      "source_file": "src/components/Navbar.jsx",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "components_navbar",
+      "community": 1,
+      "norm_label": "navbar.jsx"
+    },
+    {
+      "label": "TABS",
+      "file_type": "code",
+      "source_file": "src/components/Navbar.jsx",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "components_navbar_tabs",
+      "community": 1,
+      "norm_label": "tabs"
+    },
+    {
+      "label": "Navbar()",
+      "file_type": "code",
+      "source_file": "src/components/Navbar.jsx",
+      "source_location": "L12",
+      "_origin": "ast",
+      "id": "components_navbar_navbar",
+      "community": 1,
+      "norm_label": "navbar()"
+    },
+    {
+      "label": "ProductLogo.jsx",
+      "file_type": "code",
+      "source_file": "src/components/ProductLogo.jsx",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "components_productlogo",
+      "community": 4,
+      "norm_label": "productlogo.jsx"
+    },
+    {
+      "label": "PRODUCT_LABELS",
+      "file_type": "code",
+      "source_file": "src/components/ProductLogo.jsx",
+      "source_location": "L4",
+      "_origin": "ast",
+      "id": "components_productlogo_product_labels",
+      "community": 4,
+      "norm_label": "product_labels"
+    },
+    {
+      "label": "ProductLogo()",
+      "file_type": "code",
+      "source_file": "src/components/ProductLogo.jsx",
+      "source_location": "L10",
+      "_origin": "ast",
+      "id": "components_productlogo_productlogo",
+      "community": 4,
+      "norm_label": "productlogo()"
+    },
+    {
+      "label": "data.js",
+      "file_type": "code",
+      "source_file": "src/data.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "src_data",
+      "community": 3,
+      "norm_label": "data.js"
+    },
+    {
+      "label": "ECOSYSTEM_DATA",
+      "file_type": "code",
+      "source_file": "src/data.js",
+      "source_location": "L2",
+      "_origin": "ast",
+      "id": "src_data_ecosystem_data",
+      "community": 3,
+      "norm_label": "ecosystem_data"
+    },
+    {
+      "label": "HOME_TAB",
+      "file_type": "code",
+      "source_file": "src/data.js",
+      "source_location": "L38",
+      "_origin": "ast",
+      "id": "src_data_home_tab",
+      "community": 3,
+      "norm_label": "home_tab"
+    },
+    {
+      "label": "DBAssets.jsx",
+      "file_type": "code",
+      "source_file": "src/pages/DBAssets.jsx",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "pages_dbassets",
+      "community": 2,
+      "norm_label": "dbassets.jsx"
+    },
+    {
+      "label": "SERVICES",
+      "file_type": "code",
+      "source_file": "src/pages/DBAssets.jsx",
+      "source_location": "L7",
+      "_origin": "ast",
+      "id": "pages_dbassets_services",
+      "community": 2,
+      "norm_label": "services"
+    },
+    {
+      "label": "STEPS",
+      "file_type": "code",
+      "source_file": "src/pages/DBAssets.jsx",
+      "source_location": "L44",
+      "_origin": "ast",
+      "id": "pages_dbassets_steps",
+      "community": 2,
+      "norm_label": "steps"
+    },
+    {
+      "label": "AUDIENCES",
+      "file_type": "code",
+      "source_file": "src/pages/DBAssets.jsx",
+      "source_location": "L62",
+      "_origin": "ast",
+      "id": "pages_dbassets_audiences",
+      "community": 2,
+      "norm_label": "audiences"
+    },
+    {
+      "label": "BENEFITS",
+      "file_type": "code",
+      "source_file": "src/pages/DBAssets.jsx",
+      "source_location": "L77",
+      "_origin": "ast",
+      "id": "pages_dbassets_benefits",
+      "community": 2,
+      "norm_label": "benefits"
+    },
+    {
+      "label": "fadeInUp",
+      "file_type": "code",
+      "source_file": "src/pages/DBAssets.jsx",
+      "source_location": "L86",
+      "_origin": "ast",
+      "id": "pages_dbassets_fadeinup",
+      "community": 2,
+      "norm_label": "fadeinup"
+    },
+    {
+      "label": "staggerContainer",
+      "file_type": "code",
+      "source_file": "src/pages/DBAssets.jsx",
+      "source_location": "L95",
+      "_origin": "ast",
+      "id": "pages_dbassets_staggercontainer",
+      "community": 2,
+      "norm_label": "staggercontainer"
+    },
+    {
+      "label": "DBAssets()",
+      "file_type": "code",
+      "source_file": "src/pages/DBAssets.jsx",
+      "source_location": "L103",
+      "_origin": "ast",
+      "id": "pages_dbassets_dbassets",
+      "community": 2,
+      "norm_label": "dbassets()"
+    },
+    {
+      "label": "DBExpo.jsx",
+      "file_type": "code",
+      "source_file": "src/pages/DBExpo.jsx",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "pages_dbexpo",
+      "community": 0,
+      "norm_label": "dbexpo.jsx"
+    },
+    {
+      "label": "INTERACTION_ICONS",
+      "file_type": "code",
+      "source_file": "src/pages/DBExpo.jsx",
+      "source_location": "L13",
+      "_origin": "ast",
+      "id": "pages_dbexpo_interaction_icons",
+      "community": 0,
+      "norm_label": "interaction_icons"
+    },
+    {
+      "label": "PROJECT_INTERACTIONS",
+      "file_type": "code",
+      "source_file": "src/pages/DBExpo.jsx",
+      "source_location": "L44",
+      "_origin": "ast",
+      "id": "pages_dbexpo_project_interactions",
+      "community": 0,
+      "norm_label": "project_interactions"
+    },
+    {
+      "label": "EXPLORE_CATEGORIES",
+      "file_type": "code",
+      "source_file": "src/pages/DBExpo.jsx",
+      "source_location": "L67",
+      "_origin": "ast",
+      "id": "pages_dbexpo_explore_categories",
+      "community": 0,
+      "norm_label": "explore_categories"
+    },
+    {
+      "label": "HIGHLIGHTS",
+      "file_type": "code",
+      "source_file": "src/pages/DBExpo.jsx",
+      "source_location": "L105",
+      "_origin": "ast",
+      "id": "pages_dbexpo_highlights",
+      "community": 0,
+      "norm_label": "highlights"
+    },
+    {
+      "label": "EVENT_DETAILS",
+      "file_type": "code",
+      "source_file": "src/pages/DBExpo.jsx",
+      "source_location": "L123",
+      "_origin": "ast",
+      "id": "pages_dbexpo_event_details",
+      "community": 0,
+      "norm_label": "event_details"
+    },
+    {
+      "label": "fadeInUp",
+      "file_type": "code",
+      "source_file": "src/pages/DBExpo.jsx",
+      "source_location": "L130",
+      "_origin": "ast",
+      "id": "pages_dbexpo_fadeinup",
+      "community": 0,
+      "norm_label": "fadeinup"
+    },
+    {
+      "label": "staggerContainer",
+      "file_type": "code",
+      "source_file": "src/pages/DBExpo.jsx",
+      "source_location": "L139",
+      "_origin": "ast",
+      "id": "pages_dbexpo_staggercontainer",
+      "community": 0,
+      "norm_label": "staggercontainer"
+    },
+    {
+      "label": "DBExpo()",
+      "file_type": "code",
+      "source_file": "src/pages/DBExpo.jsx",
+      "source_location": "L147",
+      "_origin": "ast",
+      "id": "pages_dbexpo_dbexpo",
+      "community": 0,
+      "norm_label": "dbexpo()"
+    },
+    {
+      "label": "DBLiquid.jsx",
+      "file_type": "code",
+      "source_file": "src/pages/DBLiquid.jsx",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "pages_dbliquid",
+      "community": 1,
+      "norm_label": "dbliquid.jsx"
+    },
+    {
+      "label": "STEPS",
+      "file_type": "code",
+      "source_file": "src/pages/DBLiquid.jsx",
+      "source_location": "L10",
+      "_origin": "ast",
+      "id": "pages_dbliquid_steps",
+      "community": 1,
+      "norm_label": "steps"
+    },
+    {
+      "label": "fadeInUp",
+      "file_type": "code",
+      "source_file": "src/pages/DBLiquid.jsx",
+      "source_location": "L28",
+      "_origin": "ast",
+      "id": "pages_dbliquid_fadeinup",
+      "community": 1,
+      "norm_label": "fadeinup"
+    },
+    {
+      "label": "staggerContainer",
+      "file_type": "code",
+      "source_file": "src/pages/DBLiquid.jsx",
+      "source_location": "L37",
+      "_origin": "ast",
+      "id": "pages_dbliquid_staggercontainer",
+      "community": 1,
+      "norm_label": "staggercontainer"
+    },
+    {
+      "label": "DBLiquid()",
+      "file_type": "code",
+      "source_file": "src/pages/DBLiquid.jsx",
+      "source_location": "L45",
+      "_origin": "ast",
+      "id": "pages_dbliquid_dbliquid",
+      "community": 1,
+      "norm_label": "dbliquid()"
+    }
+  ],
+  "links": [
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.jsx",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "src_app",
+      "target": "components_ecosystemintro",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.jsx",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "src_app",
+      "target": "components_ecosystemintro_ecosystemintro",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.jsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "src_app",
+      "target": "components_navbar",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.jsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "src_app",
+      "target": "components_navbar_navbar",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.jsx",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "src_app",
+      "target": "components_productlogo",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.jsx",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "src_app",
+      "target": "components_productlogo_productlogo",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.jsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "src_app",
+      "target": "pages_dbassets",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.jsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "src_app",
+      "target": "pages_dbassets_dbassets",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.jsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "src_app",
+      "target": "pages_dbexpo",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.jsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "src_app",
+      "target": "pages_dbexpo_dbexpo",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.jsx",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "src_app",
+      "target": "pages_dbliquid",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.jsx",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "src_app",
+      "target": "pages_dbliquid_dbliquid",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.jsx",
+      "source_location": "L207",
+      "weight": 1.0,
+      "source": "src_app",
+      "target": "src_app_app",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.jsx",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "src_app",
+      "target": "src_app_ecocard",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.jsx",
+      "source_location": "L69",
+      "weight": 1.0,
+      "source": "src_app",
+      "target": "src_app_homepage",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.jsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "src_app",
+      "target": "src_data",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.jsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "src_app",
+      "target": "src_data_ecosystem_data",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/EcosystemIntro.jsx",
+      "source_location": "L33",
+      "weight": 1.0,
+      "source": "components_ecosystemintro",
+      "target": "components_ecosystemintro_ecosystemintro",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/EcosystemIntro.jsx",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "components_ecosystemintro",
+      "target": "components_ecosystemintro_orbit_icons",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/EcosystemIntro.jsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "components_ecosystemintro",
+      "target": "components_productlogo",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/EcosystemIntro.jsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "components_ecosystemintro",
+      "target": "components_productlogo_productlogo",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Navbar.jsx",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "components_navbar",
+      "target": "components_navbar_navbar",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Navbar.jsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "components_navbar",
+      "target": "components_navbar_tabs",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/DBAssets.jsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "pages_dbassets",
+      "target": "components_navbar",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/DBExpo.jsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "pages_dbexpo",
+      "target": "components_navbar",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/DBLiquid.jsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "pages_dbliquid",
+      "target": "components_navbar",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/DBAssets.jsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "pages_dbassets",
+      "target": "components_navbar_navbar",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/DBExpo.jsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "pages_dbexpo",
+      "target": "components_navbar_navbar",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/DBLiquid.jsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "pages_dbliquid",
+      "target": "components_navbar_navbar",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ProductLogo.jsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "components_productlogo",
+      "target": "components_productlogo_product_labels",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ProductLogo.jsx",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "components_productlogo",
+      "target": "components_productlogo_productlogo",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/DBExpo.jsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "pages_dbexpo",
+      "target": "components_productlogo",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/DBExpo.jsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "pages_dbexpo",
+      "target": "components_productlogo_productlogo",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/data.js",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "src_data",
+      "target": "src_data_ecosystem_data",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/data.js",
+      "source_location": "L38",
+      "weight": 1.0,
+      "source": "src_data",
+      "target": "src_data_home_tab",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/DBAssets.jsx",
+      "source_location": "L62",
+      "weight": 1.0,
+      "source": "pages_dbassets",
+      "target": "pages_dbassets_audiences",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/DBAssets.jsx",
+      "source_location": "L77",
+      "weight": 1.0,
+      "source": "pages_dbassets",
+      "target": "pages_dbassets_benefits",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/DBAssets.jsx",
+      "source_location": "L103",
+      "weight": 1.0,
+      "source": "pages_dbassets",
+      "target": "pages_dbassets_dbassets",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/DBAssets.jsx",
+      "source_location": "L86",
+      "weight": 1.0,
+      "source": "pages_dbassets",
+      "target": "pages_dbassets_fadeinup",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/DBAssets.jsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "pages_dbassets",
+      "target": "pages_dbassets_services",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/DBAssets.jsx",
+      "source_location": "L95",
+      "weight": 1.0,
+      "source": "pages_dbassets",
+      "target": "pages_dbassets_staggercontainer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/DBAssets.jsx",
+      "source_location": "L44",
+      "weight": 1.0,
+      "source": "pages_dbassets",
+      "target": "pages_dbassets_steps",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/DBExpo.jsx",
+      "source_location": "L147",
+      "weight": 1.0,
+      "source": "pages_dbexpo",
+      "target": "pages_dbexpo_dbexpo",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/DBExpo.jsx",
+      "source_location": "L123",
+      "weight": 1.0,
+      "source": "pages_dbexpo",
+      "target": "pages_dbexpo_event_details",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/DBExpo.jsx",
+      "source_location": "L67",
+      "weight": 1.0,
+      "source": "pages_dbexpo",
+      "target": "pages_dbexpo_explore_categories",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/DBExpo.jsx",
+      "source_location": "L130",
+      "weight": 1.0,
+      "source": "pages_dbexpo",
+      "target": "pages_dbexpo_fadeinup",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/DBExpo.jsx",
+      "source_location": "L105",
+      "weight": 1.0,
+      "source": "pages_dbexpo",
+      "target": "pages_dbexpo_highlights",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/DBExpo.jsx",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "pages_dbexpo",
+      "target": "pages_dbexpo_interaction_icons",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/DBExpo.jsx",
+      "source_location": "L44",
+      "weight": 1.0,
+      "source": "pages_dbexpo",
+      "target": "pages_dbexpo_project_interactions",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/DBExpo.jsx",
+      "source_location": "L139",
+      "weight": 1.0,
+      "source": "pages_dbexpo",
+      "target": "pages_dbexpo_staggercontainer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/DBLiquid.jsx",
+      "source_location": "L45",
+      "weight": 1.0,
+      "source": "pages_dbliquid",
+      "target": "pages_dbliquid_dbliquid",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/DBLiquid.jsx",
+      "source_location": "L28",
+      "weight": 1.0,
+      "source": "pages_dbliquid",
+      "target": "pages_dbliquid_fadeinup",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/DBLiquid.jsx",
+      "source_location": "L37",
+      "weight": 1.0,
+      "source": "pages_dbliquid",
+      "target": "pages_dbliquid_staggercontainer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/DBLiquid.jsx",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "pages_dbliquid",
+      "target": "pages_dbliquid_steps",
+      "confidence_score": 1.0
+    }
+  ],
   "hyperedges": [],
-  "built_at_commit": "1a639e2c8df38afa47dbd5ea7b37967335ef2aac"
+  "built_at_commit": "94318f12d4f7a8b3fde7ac2fec50fb1a21b54c0f"
 }

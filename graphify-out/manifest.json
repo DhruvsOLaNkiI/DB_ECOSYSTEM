@@ -10,13 +10,13 @@
     "semantic_hash": ""
   },
   "src/App.jsx": {
-    "mtime": 1782281959.7755718,
-    "ast_hash": "c8d691ac2b22f4c289a7e113ea7e6ac8",
+    "mtime": 1782305458.155116,
+    "ast_hash": "d7f609d3d96d0935e66608b3c7ff2630",
     "semantic_hash": ""
   },
   "src/components/EcosystemIntro.jsx": {
-    "mtime": 1782281960.6450164,
-    "ast_hash": "86e3a13953a1b8d86647c77962e793d0",
+    "mtime": 1782305478.2590718,
+    "ast_hash": "ae157aa2d4703bac4fbccdb4a48c9372",
     "semantic_hash": ""
   },
   "src/components/ElectricBorder.jsx": {
@@ -35,8 +35,8 @@
     "semantic_hash": ""
   },
   "src/components/Navbar.jsx": {
-    "mtime": 1782213823.798619,
-    "ast_hash": "43ac67c44573f815c21f5d462eb3b3da",
+    "mtime": 1782298210.3255708,
+    "ast_hash": "c620c5114f776d0aa5874228e066dffa",
     "semantic_hash": ""
   },
   "src/components/Prism.jsx": {
@@ -45,8 +45,8 @@
     "semantic_hash": ""
   },
   "src/data.js": {
-    "mtime": 1782282919.7637756,
-    "ast_hash": "cbfd6c3d132696ce668b6399f45946b6",
+    "mtime": 1782302738.1947813,
+    "ast_hash": "9768fe4c7b125c0ba7628c84e0747bc1",
     "semantic_hash": ""
   },
   "src/main.jsx": {
@@ -55,18 +55,18 @@
     "semantic_hash": ""
   },
   "src/pages/DBAssets.jsx": {
-    "mtime": 1782281966.7409368,
-    "ast_hash": "bb037291d27c7555f3a35364e0c6aa59",
+    "mtime": 1782296933.1009324,
+    "ast_hash": "1f8986dc6181c21f413d594c76995d97",
     "semantic_hash": ""
   },
   "src/pages/DBExpo.jsx": {
-    "mtime": 1782281964.226923,
-    "ast_hash": "3013d3d1e7e4f24625f4202a6133ad95",
+    "mtime": 1782305480.327721,
+    "ast_hash": "0535c1040bd5fdae40370cfde6485f04",
     "semantic_hash": ""
   },
   "src/pages/DBLiquid.jsx": {
-    "mtime": 1782283744.055557,
-    "ast_hash": "eb3390cb878de5e3db667fcf605d3924",
+    "mtime": 1782304941.3011055,
+    "ast_hash": "1974b208960d14b8d4d2b7f1092e502b",
     "semantic_hash": ""
   },
   "vite.config.js": {
@@ -75,8 +75,8 @@
     "semantic_hash": ""
   },
   "index.html": {
-    "mtime": 1782281967.1734993,
-    "ast_hash": "b8dd133f369dcdf062675164c3f6995c",
+    "mtime": 1782305456.1664307,
+    "ast_hash": "d4152372a3495219a10fb6d1e6fb12ec",
     "semantic_hash": ""
   },
   "src/design.md": {
@@ -97,6 +97,11 @@
   "public/favicon.svg": {
     "mtime": 1781604542.8841007,
     "ast_hash": "1913df751f7f4317c2e16d156a889b4a",
+    "semantic_hash": ""
+  },
+  "src/components/ProductLogo.jsx": {
+    "mtime": 1782305711.9626687,
+    "ast_hash": "9e9994312586427876283b5b0d2090d5",
     "semantic_hash": ""
   }
 }
