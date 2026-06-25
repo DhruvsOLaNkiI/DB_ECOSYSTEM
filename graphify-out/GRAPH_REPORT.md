@@ -1,16 +1,16 @@
-# Graph Report - DB_ECOSYSTEM  (2026-06-24)
+# Graph Report - DB_ECOSYSTEM  (2026-06-25)
 
 ## Corpus Check
-- 17 files · ~15,793 words
+- 17 files · ~15,801 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 38 nodes · 54 edges · 5 communities (4 shown, 1 thin omitted)
+- 59 nodes · 74 edges · 7 communities
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `94318f12`
+- Built from commit: `dbf6564c`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -20,18 +20,20 @@
 - [[_COMMUNITY_Community 2|Community 2]]
 - [[_COMMUNITY_Community 3|Community 3]]
 - [[_COMMUNITY_Community 4|Community 4]]
+- [[_COMMUNITY_Community 5|Community 5]]
+- [[_COMMUNITY_Community 6|Community 6]]
 
 ## God Nodes (most connected - your core abstractions)
-1. `Navbar()` - 5 edges
-2. `ProductLogo()` - 4 edges
-3. `EcosystemIntro()` - 2 edges
-4. `ECOSYSTEM_DATA` - 2 edges
-5. `DBAssets()` - 2 edges
-6. `DBExpo()` - 2 edges
-7. `DBLiquid()` - 2 edges
-8. `ORBIT_ICONS` - 1 edges
-9. `TABS` - 1 edges
-10. `PRODUCT_LABELS` - 1 edges
+1. `scripts` - 5 edges
+2. `Navbar()` - 5 edges
+3. `ProductLogo()` - 4 edges
+4. `EcosystemIntro()` - 2 edges
+5. `ECOSYSTEM_DATA` - 2 edges
+6. `DBAssets()` - 2 edges
+7. `DBExpo()` - 2 edges
+8. `DBLiquid()` - 2 edges
+9. `private` - 1 edges
+10. `dev` - 1 edges
 
 ## Surprising Connections (you probably didn't know these)
 - None detected - all connections are within the same source files.
@@ -39,7 +41,7 @@
 ## Import Cycles
 - None detected.
 
-## Communities (5 total, 1 thin omitted)
+## Communities (7 total, 0 thin omitted)
 
 ### Community 0 - "Community 0"
 Cohesion: 0.22
@@ -53,21 +55,32 @@ Nodes (6): Navbar(), TABS, DBLiquid(), fadeInUp, staggerContainer, STEPS
 Cohesion: 0.25
 Nodes (7): AUDIENCES, BENEFITS, DBAssets(), fadeInUp, SERVICES, staggerContainer, STEPS
 
+### Community 3 - "Community 3"
+Cohesion: 0.22
+Nodes (6): EcosystemIntro(), ORBIT_ICONS, PRODUCT_LABELS, ProductLogo(), ECOSYSTEM_DATA, HOME_TAB
+
 ### Community 4 - "Community 4"
+Cohesion: 0.22
+Nodes (8): devDependencies, serve, vite, @vitejs/plugin-react, name, private, type, version
+
+### Community 5 - "Community 5"
+Cohesion: 0.29
+Nodes (7): dependencies, framer-motion, gsap, ogl, react, react-dom, react-router-dom
+
+### Community 6 - "Community 6"
 Cohesion: 0.40
-Nodes (4): EcosystemIntro(), ORBIT_ICONS, PRODUCT_LABELS, ProductLogo()
+Nodes (5): scripts, build, dev, preview, start
 
 ## Knowledge Gaps
-- **20 isolated node(s):** `ORBIT_ICONS`, `TABS`, `PRODUCT_LABELS`, `HOME_TAB`, `SERVICES` (+15 more)
+- **37 isolated node(s):** `name`, `private`, `version`, `type`, `dev` (+32 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **1 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `Navbar()` connect `Community 1` to `Community 0`, `Community 2`, `Community 3`?**
-  _High betweenness centrality (0.058) - this node is a cross-community bridge._
-- **Why does `ProductLogo()` connect `Community 4` to `Community 0`, `Community 3`?**
-  _High betweenness centrality (0.008) - this node is a cross-community bridge._
-- **What connects `ORBIT_ICONS`, `TABS`, `PRODUCT_LABELS` to the rest of the system?**
-  _20 weakly-connected nodes found - possible documentation gaps or missing edges._
+- **Why does `dependencies` connect `Community 5` to `Community 4`?**
+  _High betweenness centrality (0.060) - this node is a cross-community bridge._
+- **Why does `scripts` connect `Community 6` to `Community 4`?**
+  _High betweenness centrality (0.042) - this node is a cross-community bridge._
+- **What connects `name`, `private`, `version` to the rest of the system?**
+  _37 weakly-connected nodes found - possible documentation gaps or missing edges._

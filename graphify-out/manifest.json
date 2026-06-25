@@ -5,13 +5,13 @@
     "semantic_hash": ""
   },
   "package.json": {
-    "mtime": 1781859129.5769784,
-    "ast_hash": "dae902d308df0a107e0468f8dac5794b",
+    "mtime": 1782365011.3437583,
+    "ast_hash": "5547f542e373bced99f27fc2c31bc45b",
     "semantic_hash": ""
   },
   "src/App.jsx": {
-    "mtime": 1782305458.155116,
-    "ast_hash": "d7f609d3d96d0935e66608b3c7ff2630",
+    "mtime": 1782311291.6055968,
+    "ast_hash": "dff9f75d6d920ccf4b0b2647bec0b889",
     "semantic_hash": ""
   },
   "src/components/EcosystemIntro.jsx": {
