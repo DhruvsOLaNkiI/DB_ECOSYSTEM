@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect } from "react";
 import { Routes, Route, Link, useLocation } from "react-router-dom";
 import { ECOSYSTEM_DATA } from "./data.js";
 import Navbar from "./components/Navbar.jsx";
@@ -8,59 +8,37 @@ import DBExpo from "./pages/DBExpo.jsx";
 import DBLiquid from "./pages/DBLiquid.jsx";
 import EcosystemIntro from "./components/EcosystemIntro.jsx";
 import ProductLogo from "./components/ProductLogo.jsx";
+import RotatingText from "./components/RotatingText.jsx";
 import "./App.css";
 
 
 function EcoCard({ data }) {
-  const [isExpanded, setIsExpanded] = useState(false);
-  
-  // If there's more than one paragraph, we consider it expandable
-  const isExpandable = data.paragraphs.length > 1;
-
   return (
     <div className="eco-box-col">
       <h3 className="eco-title">
         <ProductLogo product={data.id} />
       </h3>
-      <div className="eco-box">
-        <div className={`eco-copy ${isExpandable && isExpanded ? "is-expanded" : ""}`}>
-          <div className="eco-copy-text">
-            {data.paragraphs.map((p, i) => (
-              <p key={i}>{p}</p>
-            ))}
-          </div>
-
-          {isExpandable && (
-            <button
-              className="read-more-link"
-              onClick={() => setIsExpanded(!isExpanded)}
-            >
-              {isExpanded ? "Read less" : "Read more"}
-            </button>
-          )}
-        </div>
-
-        <div className="eco-actions">
-          {data.link.startsWith("http") ? (
-            <a
-              href={data.link}
-              className="red-btn"
-              target="_blank"
-              rel="noopener noreferrer"
-              style={{ textDecoration: "none", display: "inline-block" }}
-            >
-              {data.buttonText}
-            </a>
-          ) : (
-            <Link
-              to={data.link}
-              className="red-btn"
-              style={{ textDecoration: "none", display: "inline-block" }}
-            >
-              {data.buttonText}
-            </Link>
-          )}
-        </div>
+      <p className="eco-summary">{data.paragraphs[0]}</p>
+      <div className="eco-actions">
+        {data.link.startsWith("http") ? (
+          <a
+            href={data.link}
+            className="red-btn"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{ textDecoration: "none", display: "inline-block" }}
+          >
+            {data.buttonText}
+          </a>
+        ) : (
+          <Link
+            to={data.link}
+            className="red-btn"
+            style={{ textDecoration: "none", display: "inline-block" }}
+          >
+            {data.buttonText}
+          </Link>
+        )}
       </div>
     </div>
   );
@@ -76,31 +54,47 @@ function HomePage() {
 
   return (
     <div className="app">
+      <div className="app-bg" aria-hidden="true" />
       <div className="app-content">
       <Navbar />
 
-      <main className="hero">
-        <h1 className="hero-title">
-          <span className="title-sans">Digital Broker.in</span>
-          <br />
-          <span className="title-serif">Manage,Discover,Liquid</span>
-        </h1>
-        <p className="hero-desc">
-          DigitalBroker is a digital ecosystem for modern day real estate challanges ,an
-          ecosystem 
-        </p>
-      </main>
+      <EcosystemIntro />
+
+      <section className="home-hero-bridge">
+        <div className="home-hero-bridge-inner">
+          <h1 className="hero-title">
+            <span className="title-sans">Digital Broker.in</span>
+            <br />
+            <span className="hero-db-rotate">
+              <span className="hero-db-prefix">DB</span>
+              <RotatingText
+                texts={["Expo", "Asset", "Liquid"]}
+                mainClassName="hero-rotating-product title-serif"
+                rotationInterval={4500}
+                transition={{ duration: 0.4, ease: [0.22, 1, 0.36, 1] }}
+                exitTransition={{ duration: 1.1, ease: [0.55, 0, 0.85, 0.36] }}
+                splitBy="none"
+              />
+            </span>
+          </h1>
+          <p className="hero-desc">
+            DigitalBroker is a digital ecosystem for modern-day real estate — an
+            ecosystem where buying, managing, and selling are driven by
+            future-ready technologies with minimal human intervention.
+          </p>
+        </div>
+      </section>
 
       <div id="products" className="ecosystem-diagram">
         <svg className="eco-arrows" viewBox="0 0 800 160">
           <defs>
             <marker id="arrow" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
-              <path d="M 0 1 L 9 5 L 0 9 z" fill="rgba(15, 23, 42, 0.8)" />
+              <path d="M 0 1 L 9 5 L 0 9 z" fill="#f97316" />
             </marker>
           </defs>
-          <path className="animated-arrow" d="M 400 5 C 400 80, 133 60, 133 145" fill="none" stroke="rgba(15, 23, 42, 0.8)" strokeWidth="4" markerEnd="url(#arrow)" />
-          <path className="animated-arrow" d="M 400 5 L 400 145" fill="none" stroke="rgba(15, 23, 42, 0.8)" strokeWidth="4" markerEnd="url(#arrow)" />
-          <path className="animated-arrow" d="M 400 5 C 400 80, 666 60, 666 145" fill="none" stroke="rgba(15, 23, 42, 0.8)" strokeWidth="4" markerEnd="url(#arrow)" />
+          <path className="animated-arrow" d="M 400 5 C 400 80, 133 60, 133 145" fill="none" stroke="#f97316" strokeWidth="4" markerEnd="url(#arrow)" />
+          <path className="animated-arrow" d="M 400 5 L 400 145" fill="none" stroke="#f97316" strokeWidth="4" markerEnd="url(#arrow)" />
+          <path className="animated-arrow" d="M 400 5 C 400 80, 666 60, 666 145" fill="none" stroke="#f97316" strokeWidth="4" markerEnd="url(#arrow)" />
         </svg>
 
         <div className="eco-boxes">
@@ -109,8 +103,6 @@ function HomePage() {
           ))}
         </div>
       </div>
-
-      <EcosystemIntro />
 
       {/* Section 4 — Built for the Future */}
       <section className="home-section home-future">

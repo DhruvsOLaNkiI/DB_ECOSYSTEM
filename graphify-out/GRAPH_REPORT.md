@@ -5,12 +5,12 @@
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 59 nodes · 74 edges · 7 communities
+- 59 nodes · 74 edges · 6 communities
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `dbf6564c`
+- Built from commit: `940162b6`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -21,7 +21,6 @@
 - [[_COMMUNITY_Community 3|Community 3]]
 - [[_COMMUNITY_Community 4|Community 4]]
 - [[_COMMUNITY_Community 5|Community 5]]
-- [[_COMMUNITY_Community 6|Community 6]]
 
 ## God Nodes (most connected - your core abstractions)
 1. `scripts` - 5 edges
@@ -41,7 +40,7 @@
 ## Import Cycles
 - None detected.
 
-## Communities (7 total, 0 thin omitted)
+## Communities (6 total, 0 thin omitted)
 
 ### Community 0 - "Community 0"
 Cohesion: 0.22
@@ -60,16 +59,12 @@ Cohesion: 0.22
 Nodes (6): EcosystemIntro(), ORBIT_ICONS, PRODUCT_LABELS, ProductLogo(), ECOSYSTEM_DATA, HOME_TAB
 
 ### Community 4 - "Community 4"
-Cohesion: 0.22
-Nodes (8): devDependencies, serve, vite, @vitejs/plugin-react, name, private, type, version
+Cohesion: 0.15
+Nodes (12): devDependencies, vite, @vitejs/plugin-react, name, private, scripts, build, dev (+4 more)
 
 ### Community 5 - "Community 5"
-Cohesion: 0.29
-Nodes (7): dependencies, framer-motion, gsap, ogl, react, react-dom, react-router-dom
-
-### Community 6 - "Community 6"
-Cohesion: 0.40
-Nodes (5): scripts, build, dev, preview, start
+Cohesion: 0.25
+Nodes (8): dependencies, framer-motion, gsap, ogl, react, react-dom, react-router-dom, serve
 
 ## Knowledge Gaps
 - **37 isolated node(s):** `name`, `private`, `version`, `type`, `dev` (+32 more)
@@ -79,8 +74,8 @@ Nodes (5): scripts, build, dev, preview, start
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `dependencies` connect `Community 5` to `Community 4`?**
-  _High betweenness centrality (0.060) - this node is a cross-community bridge._
-- **Why does `scripts` connect `Community 6` to `Community 4`?**
-  _High betweenness centrality (0.042) - this node is a cross-community bridge._
+  _High betweenness centrality (0.068) - this node is a cross-community bridge._
+- **Why does `Navbar()` connect `Community 1` to `Community 0`, `Community 2`, `Community 3`?**
+  _High betweenness centrality (0.023) - this node is a cross-community bridge._
 - **What connects `name`, `private`, `version` to the rest of the system?**
   _37 weakly-connected nodes found - possible documentation gaps or missing edges._

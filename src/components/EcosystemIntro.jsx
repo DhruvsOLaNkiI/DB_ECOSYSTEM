@@ -7,25 +7,40 @@ gsap.registerPlugin(ScrollTrigger);
 
 const ORBIT_ICONS = {
   expo: (
-    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
-      <path d="M6 22V4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v18Z" />
-      <path d="M6 12H4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h2" />
-      <path d="M18 9h2a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2h-2" />
-      <path d="M10 6h4M10 10h4M10 14h4M10 18h4" />
+    <svg viewBox="0 0 24 24" fill="none" stroke="url(#expo-grad)" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+      <defs>
+        <linearGradient id="expo-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+          <stop offset="0%" stopColor="#f97316" />
+          <stop offset="100%" stopColor="#fde047" />
+        </linearGradient>
+      </defs>
+      <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path>
+      <polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline>
+      <line x1="12" y1="22.08" x2="12" y2="12"></line>
     </svg>
   ),
   assets: (
-    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
-      <path d="M3 3v18h18" />
-      <path d="M18 17V9" />
-      <path d="M13 17V5" />
-      <path d="M8 17v-3" />
+    <svg viewBox="0 0 24 24" fill="none" stroke="url(#assets-grad)" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+      <defs>
+        <linearGradient id="assets-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+          <stop offset="0%" stopColor="#f97316" />
+          <stop offset="100%" stopColor="#fde047" />
+        </linearGradient>
+      </defs>
+      <path d="M21.21 15.89A10 10 0 1 1 8 2.83"></path>
+      <path d="M22 12A10 10 0 0 0 12 2v10z"></path>
     </svg>
   ),
   liquid: (
-    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
-      <polyline points="22 7 13.5 15.5 8.5 10.5 2 17" />
-      <polyline points="16 7 22 7 22 13" />
+    <svg viewBox="0 0 24 24" fill="none" stroke="url(#liquid-grad)" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+      <defs>
+        <linearGradient id="liquid-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+          <stop offset="0%" stopColor="#f97316" />
+          <stop offset="100%" stopColor="#fde047" />
+        </linearGradient>
+      </defs>
+      <path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z" fill="url(#liquid-grad)" fillOpacity="0.15"></path>
+      <path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z"></path>
     </svg>
   ),
 };
@@ -50,11 +65,7 @@ export default function EcosystemIntro() {
         duration: 0.9,
         stagger: 0.14,
         ease: "power3.out",
-        scrollTrigger: {
-          trigger: section,
-          start: "top 72%",
-          toggleActions: "play none none reverse",
-        },
+        delay: 0.15,
       });
 
       const orbitParts = orbitRef.current?.querySelectorAll(
@@ -67,11 +78,7 @@ export default function EcosystemIntro() {
           duration: 0.8,
           stagger: 0.1,
           ease: "back.out(1.6)",
-          scrollTrigger: {
-            trigger: orbitRef.current,
-            start: "top 80%",
-            toggleActions: "play none none reverse",
-          },
+          delay: 0.25,
         });
       }
 
@@ -80,20 +87,7 @@ export default function EcosystemIntro() {
         opacity: 1,
         duration: 1.2,
         ease: "power2.out",
-        scrollTrigger: {
-          trigger: orbitRef.current,
-          start: "top 80%",
-          toggleActions: "play none none reverse",
-        },
-      });
-
-      gsap.to(".home-orbit-node", {
-        y: "+=6",
-        duration: 2.4,
-        repeat: -1,
-        yoyo: true,
-        ease: "sine.inOut",
-        stagger: { each: 0.3, from: "random" },
+        delay: 0.2,
       });
     }, section);
 
@@ -113,6 +107,17 @@ export default function EcosystemIntro() {
             connect people, property, and capital in one seamless real estate
             ecosystem.
           </p>
+          <p className="ecosystem-intro-pillars">
+            <span className="home-gradient-text">Manage</span>
+            <span className="ecosystem-intro-pillars-sep" aria-hidden="true">
+              -
+            </span>
+            <span className="home-gradient-text">Discover</span>
+            <span className="ecosystem-intro-pillars-sep" aria-hidden="true">
+              -
+            </span>
+            <span className="home-gradient-text">Liquid</span>
+          </p>
         </div>
         <div ref={orbitRef} className="home-orbit" aria-hidden="true">
           <div className="home-orbit-ring" />
@@ -120,26 +125,34 @@ export default function EcosystemIntro() {
             <span className="home-orbit-logo">DB</span>
             <span className="home-orbit-hub-label">DigitalBroker Ecosystem</span>
           </div>
-          <div className="home-orbit-node home-orbit-node--expo">
-            <div className="home-orbit-icon home-orbit-icon--expo">{ORBIT_ICONS.expo}</div>
-            <strong>
-              <ProductLogo product="expo" size="sm" />
-            </strong>
-            <span>Discover. Engage. Generate Leads.</span>
-          </div>
-          <div className="home-orbit-node home-orbit-node--assets">
-            <div className="home-orbit-icon home-orbit-icon--assets">{ORBIT_ICONS.assets}</div>
-            <strong>
-              <ProductLogo product="assets" size="sm" />
-            </strong>
-            <span>Manage. Analyze. Grow Assets.</span>
-          </div>
-          <div className="home-orbit-node home-orbit-node--liquid">
-            <div className="home-orbit-icon home-orbit-icon--liquid">{ORBIT_ICONS.liquid}</div>
-            <strong>
-              <ProductLogo product="liquid" size="sm" />
-            </strong>
-            <span>Invest. Trade. Unlock Liquidity.</span>
+          <div className="home-orbit-track">
+            <div className="home-orbit-node home-orbit-node--expo">
+              <div className="home-orbit-node-inner">
+                <div className="home-orbit-icon home-orbit-icon--expo">{ORBIT_ICONS.expo}</div>
+                <strong>
+                  <ProductLogo product="expo" size="sm" />
+                </strong>
+                <span>Discover. Engage. Generate Leads.</span>
+              </div>
+            </div>
+            <div className="home-orbit-node home-orbit-node--assets">
+              <div className="home-orbit-node-inner">
+                <div className="home-orbit-icon home-orbit-icon--assets">{ORBIT_ICONS.assets}</div>
+                <strong>
+                  <ProductLogo product="assets" size="sm" />
+                </strong>
+                <span>Manage. Analyze. Grow Assets.</span>
+              </div>
+            </div>
+            <div className="home-orbit-node home-orbit-node--liquid">
+              <div className="home-orbit-node-inner">
+                <div className="home-orbit-icon home-orbit-icon--liquid">{ORBIT_ICONS.liquid}</div>
+                <strong>
+                  <ProductLogo product="liquid" size="sm" />
+                </strong>
+                <span>Invest. Trade. Unlock Liquidity.</span>
+              </div>
+            </div>
           </div>
         </div>
       </div>

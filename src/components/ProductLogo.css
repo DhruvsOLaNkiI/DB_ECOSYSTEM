@@ -28,6 +28,8 @@
 }
 
 .product-logo-db {
+  font-family: "Montserrat", "Plus Jakarta Sans", system-ui, sans-serif;
+  font-weight: 800;
   color: #f97316;
   text-shadow: 0 0 8px rgba(249, 115, 22, 0.35);
 }

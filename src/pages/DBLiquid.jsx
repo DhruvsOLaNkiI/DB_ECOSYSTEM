@@ -4,6 +4,8 @@ import Navbar from "../components/Navbar.jsx";
 import Footer from "../components/Footer.jsx";
 import "./DBLiquid.css";
 
+const LIQUID_APP_URL = "https://dbliquid.digitalbroker.in/";
+
 const HERO_IMAGE =
   "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=2000&auto=format&fit=crop";
 
@@ -85,9 +87,14 @@ export default function DBLiquid() {
               transition={{ delay: 0.35, duration: 0.7 }}
               className="dl-hero-actions"
             >
-              <button type="button" className="dl-btn-primary">
+              <a
+                href={LIQUID_APP_URL}
+                className="dl-btn-primary"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 👉 List Your Property for Free
-              </button>
+              </a>
             </motion.div>
           </div>
         </motion.section>
@@ -203,9 +210,14 @@ export default function DBLiquid() {
               only pay a flat success fee of <strong>₹11,000</strong>—and only
               after a successful sale. You keep the rest.
             </p>
-            <button type="button" className="dl-btn-primary">
+            <a
+              href={LIQUID_APP_URL}
+              className="dl-btn-primary"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               👉 Start Your Free Listing Now
-            </button>
+            </a>
           </motion.div>
         </motion.section>
 

@@ -2,7 +2,7 @@
 .dl-page {
   position: relative;
   min-height: 100vh;
-  background: #0a0604;
+  background: #000000;
   color: #ffffff;
   font-family: "Plus Jakarta Sans", "Inter", system-ui, sans-serif;
   font-weight: 500;
@@ -186,6 +186,7 @@
   display: inline-flex;
   align-items: center;
   justify-content: center;
+  text-decoration: none;
   padding: 16px 28px;
   font-size: 15px;
   font-weight: 700;

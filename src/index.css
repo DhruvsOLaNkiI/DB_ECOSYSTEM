@@ -20,15 +20,7 @@ body,
 }
 
 body {
-  background: linear-gradient(
-    180deg,
-    var(--db-navy) 0%,
-    #1a2744 35%,
-    var(--db-blue-mid) 62%,
-    #b8c4d4 82%,
-    var(--db-light) 100%
-  );
-  background-attachment: fixed;
+  background: #000000;
   color: #ffffff;
   -webkit-font-smoothing: antialiased;
   overflow-x: hidden;
