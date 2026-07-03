@@ -8,7 +8,6 @@ import DBExpo from "./pages/DBExpo.jsx";
 import DBLiquid from "./pages/DBLiquid.jsx";
 import EcosystemIntro from "./components/EcosystemIntro.jsx";
 import ProductLogo from "./components/ProductLogo.jsx";
-import RotatingText from "./components/RotatingText.jsx";
 import "./App.css";
 
 
@@ -59,31 +58,6 @@ function HomePage() {
       <Navbar />
 
       <EcosystemIntro />
-
-      <section className="home-hero-bridge">
-        <div className="home-hero-bridge-inner">
-          <h1 className="hero-title">
-            <span className="title-sans">Digital Broker.in</span>
-            <br />
-            <span className="hero-db-rotate">
-              <span className="hero-db-prefix">DB</span>
-              <RotatingText
-                texts={["Expo", "Asset", "Liquid"]}
-                mainClassName="hero-rotating-product title-serif"
-                rotationInterval={4500}
-                transition={{ duration: 0.4, ease: [0.22, 1, 0.36, 1] }}
-                exitTransition={{ duration: 1.1, ease: [0.55, 0, 0.85, 0.36] }}
-                splitBy="none"
-              />
-            </span>
-          </h1>
-          <p className="hero-desc">
-            DigitalBroker is a digital ecosystem for modern-day real estate — an
-            ecosystem where buying, managing, and selling are driven by
-            future-ready technologies with minimal human intervention.
-          </p>
-        </div>
-      </section>
 
       <div id="products" className="ecosystem-diagram">
         <svg className="eco-arrows" viewBox="0 0 800 160">

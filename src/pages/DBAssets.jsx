@@ -41,6 +41,9 @@ const HERO_IMAGE = "/assets/portfolio-analytics-hero.png";
 
 const DASHBOARD_IMAGE = "/assets/portfolio-analytics-hero.png";
 
+const GET_STARTED_URL =
+  "https://dbasset.digitalbroker.in/sign-in?redirect_url=%2F";
+
 const STEPS = [
   {
     num: "01",
@@ -125,9 +128,14 @@ export default function DBAssets() {
                 the operations so you can focus on growing your assets.
               </motion.p>
               <motion.div variants={fadeInUp} className="da-actions">
-                <button type="button" className="da-btn-primary">
+                <a
+                  href={GET_STARTED_URL}
+                  className="da-btn-primary"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   Get started
-                </button>
+                </a>
                 <button type="button" className="da-btn-text">
                   Speak to sales
                 </button>
@@ -330,7 +338,14 @@ export default function DBAssets() {
             Join investors already using DB Assets to manage and grow their
             portfolios.
           </p>
-          <button className="da-btn-primary">Get started — it&apos;s free</button>
+          <a
+            href={GET_STARTED_URL}
+            className="da-btn-primary"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Get started — it&apos;s free
+          </a>
         </motion.section>
 
         <Footer />

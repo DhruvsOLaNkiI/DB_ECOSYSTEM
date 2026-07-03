@@ -214,44 +214,84 @@
       "norm_label": "serve"
     },
     {
+      "label": "three",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L24",
+      "_origin": "ast",
+      "id": "package_dependencies_three",
+      "community": 5,
+      "norm_label": "three"
+    },
+    {
+      "label": "asset.tsx",
+      "file_type": "code",
+      "source_file": "public/asset.tsx",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "public_asset",
+      "community": 8,
+      "norm_label": "asset.tsx"
+    },
+    {
       "label": "App.jsx",
       "file_type": "code",
       "source_file": "src/App.jsx",
       "source_location": "L1",
       "_origin": "ast",
+      "id": "src_app",
       "community": 3,
-      "norm_label": "app.jsx",
-      "id": "src_app"
+      "norm_label": "app.jsx"
     },
     {
       "label": "EcoCard()",
       "file_type": "code",
       "source_file": "src/App.jsx",
-      "source_location": "L14",
+      "source_location": "L15",
       "_origin": "ast",
+      "id": "src_app_ecocard",
       "community": 3,
-      "norm_label": "ecocard()",
-      "id": "src_app_ecocard"
+      "norm_label": "ecocard()"
     },
     {
       "label": "HomePage()",
       "file_type": "code",
       "source_file": "src/App.jsx",
-      "source_location": "L69",
+      "source_location": "L47",
       "_origin": "ast",
+      "id": "src_app_homepage",
       "community": 3,
-      "norm_label": "homepage()",
-      "id": "src_app_homepage"
+      "norm_label": "homepage()"
     },
     {
       "label": "App()",
       "file_type": "code",
       "source_file": "src/App.jsx",
-      "source_location": "L207",
+      "source_location": "L199",
       "_origin": "ast",
+      "id": "src_app_app",
       "community": 3,
-      "norm_label": "app()",
-      "id": "src_app_app"
+      "norm_label": "app()"
+    },
+    {
+      "label": "ColorBends.jsx",
+      "file_type": "code",
+      "source_file": "src/components/ColorBends.jsx",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "components_colorbends",
+      "community": 7,
+      "norm_label": "colorbends.jsx"
+    },
+    {
+      "label": "ColorBends()",
+      "file_type": "code",
+      "source_file": "src/components/ColorBends.jsx",
+      "source_location": "L110",
+      "_origin": "ast",
+      "id": "components_colorbends_colorbends",
+      "community": 7,
+      "norm_label": "colorbends()"
     },
     {
       "label": "EcosystemIntro.jsx",
@@ -259,9 +299,9 @@
       "source_file": "src/components/EcosystemIntro.jsx",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 3,
-      "norm_label": "ecosystemintro.jsx",
-      "id": "components_ecosystemintro"
+      "id": "components_ecosystemintro",
+      "community": 6,
+      "norm_label": "ecosystemintro.jsx"
     },
     {
       "label": "ORBIT_ICONS",
@@ -269,19 +309,109 @@
       "source_file": "src/components/EcosystemIntro.jsx",
       "source_location": "L8",
       "_origin": "ast",
-      "community": 3,
-      "norm_label": "orbit_icons",
-      "id": "components_ecosystemintro_orbit_icons"
+      "id": "components_ecosystemintro_orbit_icons",
+      "community": 6,
+      "norm_label": "orbit_icons"
     },
     {
       "label": "EcosystemIntro()",
       "file_type": "code",
       "source_file": "src/components/EcosystemIntro.jsx",
-      "source_location": "L33",
+      "source_location": "L48",
       "_origin": "ast",
+      "id": "components_ecosystemintro_ecosystemintro",
+      "community": 6,
+      "norm_label": "ecosystemintro()"
+    },
+    {
+      "label": "RotatingText.jsx",
+      "file_type": "code",
+      "source_file": "src/components/RotatingText.jsx",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "components_rotatingtext",
       "community": 3,
-      "norm_label": "ecosystemintro()",
-      "id": "components_ecosystemintro_ecosystemintro"
+      "norm_label": "rotatingtext.jsx"
+    },
+    {
+      "label": "cn()",
+      "file_type": "code",
+      "source_file": "src/components/RotatingText.jsx",
+      "source_location": "L12",
+      "_origin": "ast",
+      "id": "components_rotatingtext_cn",
+      "community": 3,
+      "norm_label": "cn()"
+    },
+    {
+      "label": "splitIntoCharacters()",
+      "file_type": "code",
+      "source_file": "src/components/RotatingText.jsx",
+      "source_location": "L16",
+      "_origin": "ast",
+      "id": "components_rotatingtext_splitintocharacters",
+      "community": 3,
+      "norm_label": "splitintocharacters()"
+    },
+    {
+      "label": "RotatingText",
+      "file_type": "code",
+      "source_file": "src/components/RotatingText.jsx",
+      "source_location": "L24",
+      "_origin": "ast",
+      "id": "components_rotatingtext_rotatingtext",
+      "community": 3,
+      "norm_label": "rotatingtext"
+    },
+    {
+      "label": "DBLiquid.jsx",
+      "file_type": "code",
+      "source_file": "src/pages/DBLiquid.jsx",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "pages_dbliquid",
+      "community": 1,
+      "norm_label": "dbliquid.jsx"
+    },
+    {
+      "label": "STEPS",
+      "file_type": "code",
+      "source_file": "src/pages/DBLiquid.jsx",
+      "source_location": "L12",
+      "_origin": "ast",
+      "id": "pages_dbliquid_steps",
+      "community": 1,
+      "norm_label": "steps"
+    },
+    {
+      "label": "fadeInUp",
+      "file_type": "code",
+      "source_file": "src/pages/DBLiquid.jsx",
+      "source_location": "L30",
+      "_origin": "ast",
+      "id": "pages_dbliquid_fadeinup",
+      "community": 1,
+      "norm_label": "fadeinup"
+    },
+    {
+      "label": "staggerContainer",
+      "file_type": "code",
+      "source_file": "src/pages/DBLiquid.jsx",
+      "source_location": "L39",
+      "_origin": "ast",
+      "id": "pages_dbliquid_staggercontainer",
+      "community": 1,
+      "norm_label": "staggercontainer"
+    },
+    {
+      "label": "DBLiquid()",
+      "file_type": "code",
+      "source_file": "src/pages/DBLiquid.jsx",
+      "source_location": "L47",
+      "_origin": "ast",
+      "id": "pages_dbliquid_dbliquid",
+      "community": 1,
+      "norm_label": "dbliquid()"
     },
     {
       "label": "Navbar.jsx",
@@ -319,7 +449,7 @@
       "source_file": "src/components/ProductLogo.jsx",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 3,
+      "community": 6,
       "norm_label": "productlogo.jsx",
       "id": "components_productlogo"
     },
@@ -329,7 +459,7 @@
       "source_file": "src/components/ProductLogo.jsx",
       "source_location": "L4",
       "_origin": "ast",
-      "community": 3,
+      "community": 6,
       "norm_label": "product_labels",
       "id": "components_productlogo_product_labels"
     },
@@ -339,7 +469,7 @@
       "source_file": "src/components/ProductLogo.jsx",
       "source_location": "L10",
       "_origin": "ast",
-      "community": 3,
+      "community": 6,
       "norm_label": "productlogo()",
       "id": "components_productlogo_productlogo"
     },
@@ -542,56 +672,6 @@
       "community": 0,
       "norm_label": "dbexpo()",
       "id": "pages_dbexpo_dbexpo"
-    },
-    {
-      "label": "DBLiquid.jsx",
-      "file_type": "code",
-      "source_file": "src/pages/DBLiquid.jsx",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 1,
-      "norm_label": "dbliquid.jsx",
-      "id": "pages_dbliquid"
-    },
-    {
-      "label": "STEPS",
-      "file_type": "code",
-      "source_file": "src/pages/DBLiquid.jsx",
-      "source_location": "L10",
-      "_origin": "ast",
-      "community": 1,
-      "norm_label": "steps",
-      "id": "pages_dbliquid_steps"
-    },
-    {
-      "label": "fadeInUp",
-      "file_type": "code",
-      "source_file": "src/pages/DBLiquid.jsx",
-      "source_location": "L28",
-      "_origin": "ast",
-      "community": 1,
-      "norm_label": "fadeinup",
-      "id": "pages_dbliquid_fadeinup"
-    },
-    {
-      "label": "staggerContainer",
-      "file_type": "code",
-      "source_file": "src/pages/DBLiquid.jsx",
-      "source_location": "L37",
-      "_origin": "ast",
-      "community": 1,
-      "norm_label": "staggercontainer",
-      "id": "pages_dbliquid_staggercontainer"
-    },
-    {
-      "label": "DBLiquid()",
-      "file_type": "code",
-      "source_file": "src/pages/DBLiquid.jsx",
-      "source_location": "L45",
-      "_origin": "ast",
-      "community": 1,
-      "norm_label": "dbliquid()",
-      "id": "pages_dbliquid_dbliquid"
     }
   ],
   "links": [
@@ -791,8 +871,18 @@
       "source_file": "package.json",
       "source_location": "L23",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package_dependencies",
-      "target": "package_dependencies_serve",
+      "target": "package_dependencies_serve"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L24",
+      "weight": 1.0,
+      "source": "package_dependencies",
+      "target": "package_dependencies_three",
       "confidence_score": 1.0
     },
     {
@@ -860,6 +950,28 @@
       "confidence_score": 1.0,
       "source": "src_app",
       "target": "components_productlogo_productlogo"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.jsx",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "src_app",
+      "target": "components_rotatingtext",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.jsx",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "src_app",
+      "target": "components_rotatingtext_rotatingtext",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports_from",
@@ -982,6 +1094,16 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
+      "source_file": "src/components/ColorBends.jsx",
+      "source_location": "L110",
+      "weight": 1.0,
+      "source": "components_colorbends",
+      "target": "components_colorbends_colorbends",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
       "source_file": "src/components/EcosystemIntro.jsx",
       "source_location": "L33",
       "weight": 1.0,
@@ -1020,6 +1142,98 @@
       "confidence_score": 1.0,
       "source": "components_ecosystemintro",
       "target": "components_productlogo_productlogo"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/RotatingText.jsx",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "components_rotatingtext",
+      "target": "components_rotatingtext_cn",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/RotatingText.jsx",
+      "source_location": "L24",
+      "weight": 1.0,
+      "source": "components_rotatingtext",
+      "target": "components_rotatingtext_rotatingtext",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/RotatingText.jsx",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "components_rotatingtext",
+      "target": "components_rotatingtext_splitintocharacters",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/DBLiquid.jsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "pages_dbliquid",
+      "target": "components_navbar"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/DBLiquid.jsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "pages_dbliquid",
+      "target": "components_navbar_navbar"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/DBLiquid.jsx",
+      "source_location": "L45",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "pages_dbliquid",
+      "target": "pages_dbliquid_dbliquid"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/DBLiquid.jsx",
+      "source_location": "L28",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "pages_dbliquid",
+      "target": "pages_dbliquid_fadeinup"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/DBLiquid.jsx",
+      "source_location": "L37",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "pages_dbliquid",
+      "target": "pages_dbliquid_staggercontainer"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/DBLiquid.jsx",
+      "source_location": "L10",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "pages_dbliquid",
+      "target": "pages_dbliquid_steps"
     },
     {
       "relation": "contains",
@@ -1064,17 +1278,6 @@
       "target": "components_navbar"
     },
     {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/pages/DBLiquid.jsx",
-      "source_location": "L3",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "pages_dbliquid",
-      "target": "components_navbar"
-    },
-    {
       "relation": "imports",
       "context": "import",
       "confidence": "EXTRACTED",
@@ -1094,17 +1297,6 @@
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "pages_dbexpo",
-      "target": "components_navbar_navbar"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/pages/DBLiquid.jsx",
-      "source_location": "L3",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "pages_dbliquid",
       "target": "components_navbar_navbar"
     },
     {
@@ -1318,48 +1510,8 @@
       "confidence_score": 1.0,
       "source": "pages_dbexpo",
       "target": "pages_dbexpo_staggercontainer"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/pages/DBLiquid.jsx",
-      "source_location": "L45",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "pages_dbliquid",
-      "target": "pages_dbliquid_dbliquid"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/pages/DBLiquid.jsx",
-      "source_location": "L28",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "pages_dbliquid",
-      "target": "pages_dbliquid_fadeinup"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/pages/DBLiquid.jsx",
-      "source_location": "L37",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "pages_dbliquid",
-      "target": "pages_dbliquid_staggercontainer"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/pages/DBLiquid.jsx",
-      "source_location": "L10",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "pages_dbliquid",
-      "target": "pages_dbliquid_steps"
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "940162b6851e834737aadbd1f558c1e33e2a359c"
+  "built_at_commit": "bd2329e98d11852f85d77d7bdcb6a70f379bd23a"
 }

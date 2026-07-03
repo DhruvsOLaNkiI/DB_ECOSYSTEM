@@ -139,6 +139,8 @@
 }
 
 .da-btn-primary {
+  display: inline-block;
+  text-decoration: none;
   background: #f97316;
   color: #ffffff;
   border: none;

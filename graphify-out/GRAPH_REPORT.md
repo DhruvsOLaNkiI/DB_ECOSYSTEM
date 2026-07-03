@@ -1,16 +1,16 @@
-# Graph Report - DB_ECOSYSTEM  (2026-06-25)
+# Graph Report - DB_ECOSYSTEM  (2026-06-28)
 
 ## Corpus Check
-- 17 files · ~15,801 words
+- 20 files · ~17,751 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 59 nodes · 74 edges · 6 communities
+- 67 nodes · 81 edges · 9 communities
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `940162b6`
+- Built from commit: `bd2329e9`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -21,18 +21,19 @@
 - [[_COMMUNITY_Community 3|Community 3]]
 - [[_COMMUNITY_Community 4|Community 4]]
 - [[_COMMUNITY_Community 5|Community 5]]
+- [[_COMMUNITY_Community 6|Community 6]]
 
 ## God Nodes (most connected - your core abstractions)
 1. `scripts` - 5 edges
 2. `Navbar()` - 5 edges
 3. `ProductLogo()` - 4 edges
 4. `EcosystemIntro()` - 2 edges
-5. `ECOSYSTEM_DATA` - 2 edges
-6. `DBAssets()` - 2 edges
-7. `DBExpo()` - 2 edges
-8. `DBLiquid()` - 2 edges
-9. `private` - 1 edges
-10. `dev` - 1 edges
+5. `RotatingText` - 2 edges
+6. `DBLiquid()` - 2 edges
+7. `ECOSYSTEM_DATA` - 2 edges
+8. `DBAssets()` - 2 edges
+9. `DBExpo()` - 2 edges
+10. `private` - 1 edges
 
 ## Surprising Connections (you probably didn't know these)
 - None detected - all connections are within the same source files.
@@ -40,7 +41,7 @@
 ## Import Cycles
 - None detected.
 
-## Communities (6 total, 0 thin omitted)
+## Communities (9 total, 0 thin omitted)
 
 ### Community 0 - "Community 0"
 Cohesion: 0.22
@@ -56,26 +57,28 @@ Nodes (7): AUDIENCES, BENEFITS, DBAssets(), fadeInUp, SERVICES, staggerContainer
 
 ### Community 3 - "Community 3"
 Cohesion: 0.22
-Nodes (6): EcosystemIntro(), ORBIT_ICONS, PRODUCT_LABELS, ProductLogo(), ECOSYSTEM_DATA, HOME_TAB
+Nodes (3): RotatingText, ECOSYSTEM_DATA, HOME_TAB
 
 ### Community 4 - "Community 4"
 Cohesion: 0.15
 Nodes (12): devDependencies, vite, @vitejs/plugin-react, name, private, scripts, build, dev (+4 more)
 
 ### Community 5 - "Community 5"
-Cohesion: 0.25
-Nodes (8): dependencies, framer-motion, gsap, ogl, react, react-dom, react-router-dom, serve
+Cohesion: 0.22
+Nodes (9): dependencies, framer-motion, gsap, ogl, react, react-dom, react-router-dom, serve (+1 more)
+
+### Community 6 - "Community 6"
+Cohesion: 0.40
+Nodes (4): EcosystemIntro(), ORBIT_ICONS, PRODUCT_LABELS, ProductLogo()
 
 ## Knowledge Gaps
-- **37 isolated node(s):** `name`, `private`, `version`, `type`, `dev` (+32 more)
+- **38 isolated node(s):** `name`, `private`, `version`, `type`, `dev` (+33 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `dependencies` connect `Community 5` to `Community 4`?**
-  _High betweenness centrality (0.068) - this node is a cross-community bridge._
-- **Why does `Navbar()` connect `Community 1` to `Community 0`, `Community 2`, `Community 3`?**
-  _High betweenness centrality (0.023) - this node is a cross-community bridge._
+  _High betweenness centrality (0.062) - this node is a cross-community bridge._
 - **What connects `name`, `private`, `version` to the rest of the system?**
-  _37 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _38 weakly-connected nodes found - possible documentation gaps or missing edges._
