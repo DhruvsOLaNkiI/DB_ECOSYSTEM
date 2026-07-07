@@ -1,0 +1,185 @@
+/* Privacy Policy — Digital Broker dark + orange theme */
+.pp-page {
+  position: relative;
+  min-height: 100vh;
+  background: #000000;
+  color: #ffffff;
+  font-family: "Plus Jakarta Sans", "Inter", system-ui, sans-serif;
+  font-weight: 500;
+  overflow-x: hidden;
+}
+
+.pp-bg {
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  background:
+    radial-gradient(ellipse 75% 60% at 78% 32%, rgba(249, 115, 22, 0.38) 0%, rgba(249, 115, 22, 0.08) 42%, transparent 68%),
+    radial-gradient(ellipse 55% 50% at 18% 10%, rgba(249, 115, 22, 0.22) 0%, transparent 58%),
+    radial-gradient(ellipse 90% 50% at 50% 100%, rgba(180, 83, 9, 0.14) 0%, transparent 55%),
+    linear-gradient(180deg, #1a0f08 0%, #0c0805 40%, #000000 100%);
+}
+
+.pp-page-content {
+  position: relative;
+  z-index: 1;
+}
+
+.pp-eyebrow {
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #f97316;
+  margin-bottom: 16px;
+}
+
+.pp-hero {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 148px 24px 48px;
+  text-align: center;
+}
+
+.pp-h1 {
+  font-size: clamp(36px, 5vw, 52px);
+  font-weight: 800;
+  line-height: 1.1;
+  letter-spacing: -1.5px;
+  margin-bottom: 12px;
+  color: #ffffff;
+}
+
+.pp-updated {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.45);
+  margin: 0;
+}
+
+.pp-document {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 0 24px 100px;
+}
+
+.pp-block {
+  margin-bottom: 40px;
+  padding-bottom: 40px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.pp-block:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.pp-block-title {
+  font-size: clamp(20px, 3vw, 26px);
+  font-weight: 800;
+  letter-spacing: -0.5px;
+  color: #ffffff;
+  margin-bottom: 16px;
+}
+
+.pp-block p {
+  font-size: 15px;
+  line-height: 1.75;
+  color: rgba(255, 255, 255, 0.62);
+  margin: 0 0 14px;
+}
+
+.pp-block p:last-of-type {
+  margin-bottom: 0;
+}
+
+.pp-list {
+  list-style: none;
+  padding: 0;
+  margin: 12px 0 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.pp-list li {
+  position: relative;
+  padding-left: 22px;
+  font-size: 15px;
+  line-height: 1.65;
+  color: rgba(255, 255, 255, 0.72);
+}
+
+.pp-list li::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: #f97316;
+  font-weight: 700;
+}
+
+.pp-grievance {
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(249, 115, 22, 0.2);
+  border-radius: 20px;
+  padding: 32px;
+  margin-top: 16px;
+}
+
+.pp-grievance-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.pp-grievance-item {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.pp-grievance-label {
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #f97316;
+}
+
+.pp-grievance-value {
+  font-size: 15px;
+  line-height: 1.6;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.pp-grievance-link {
+  font-size: 15px;
+  font-weight: 600;
+  color: #f97316;
+  text-decoration: none;
+}
+
+.pp-grievance-link:hover {
+  text-decoration: underline;
+}
+
+.pp-grievance-note {
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.45);
+}
+
+@media (max-width: 640px) {
+  .pp-hero {
+    padding: 120px 20px 36px;
+  }
+
+  .pp-document {
+    padding: 0 16px 80px;
+  }
+
+  .pp-grievance {
+    padding: 24px 20px;
+  }
+}

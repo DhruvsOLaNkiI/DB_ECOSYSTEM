@@ -140,7 +140,7 @@
       "source_location": "L16",
       "_origin": "ast",
       "id": "package_dependencies",
-      "community": 5,
+      "community": 4,
       "norm_label": "dependencies"
     },
     {
@@ -150,7 +150,7 @@
       "source_location": "L17",
       "_origin": "ast",
       "id": "package_dependencies_framer_motion",
-      "community": 5,
+      "community": 4,
       "norm_label": "framer-motion"
     },
     {
@@ -160,7 +160,7 @@
       "source_location": "L18",
       "_origin": "ast",
       "id": "package_dependencies_gsap",
-      "community": 5,
+      "community": 4,
       "norm_label": "gsap"
     },
     {
@@ -170,7 +170,7 @@
       "source_location": "L19",
       "_origin": "ast",
       "id": "package_dependencies_ogl",
-      "community": 5,
+      "community": 4,
       "norm_label": "ogl"
     },
     {
@@ -180,7 +180,7 @@
       "source_location": "L20",
       "_origin": "ast",
       "id": "package_dependencies_react",
-      "community": 5,
+      "community": 4,
       "norm_label": "react"
     },
     {
@@ -190,7 +190,7 @@
       "source_location": "L21",
       "_origin": "ast",
       "id": "package_dependencies_react_dom",
-      "community": 5,
+      "community": 4,
       "norm_label": "react-dom"
     },
     {
@@ -200,7 +200,7 @@
       "source_location": "L22",
       "_origin": "ast",
       "id": "package_dependencies_react_router_dom",
-      "community": 5,
+      "community": 4,
       "norm_label": "react-router-dom"
     },
     {
@@ -210,7 +210,7 @@
       "source_location": "L23",
       "_origin": "ast",
       "id": "package_dependencies_serve",
-      "community": 5,
+      "community": 4,
       "norm_label": "serve"
     },
     {
@@ -220,7 +220,7 @@
       "source_location": "L24",
       "_origin": "ast",
       "id": "package_dependencies_three",
-      "community": 5,
+      "community": 4,
       "norm_label": "three"
     },
     {
@@ -247,7 +247,7 @@
       "label": "EcoCard()",
       "file_type": "code",
       "source_file": "src/App.jsx",
-      "source_location": "L15",
+      "source_location": "L17",
       "_origin": "ast",
       "id": "src_app_ecocard",
       "community": 3,
@@ -257,7 +257,7 @@
       "label": "HomePage()",
       "file_type": "code",
       "source_file": "src/App.jsx",
-      "source_location": "L47",
+      "source_location": "L49",
       "_origin": "ast",
       "id": "src_app_homepage",
       "community": 3,
@@ -267,7 +267,7 @@
       "label": "App()",
       "file_type": "code",
       "source_file": "src/App.jsx",
-      "source_location": "L174",
+      "source_location": "L176",
       "_origin": "ast",
       "id": "src_app_app",
       "community": 3,
@@ -360,7 +360,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "components_footer",
-      "community": 0,
+      "community": 2,
       "norm_label": "footer.jsx"
     },
     {
@@ -370,7 +370,7 @@
       "source_location": "L5",
       "_origin": "ast",
       "id": "components_footer_footer",
-      "community": 0,
+      "community": 2,
       "norm_label": "footer()"
     },
     {
@@ -574,13 +574,63 @@
       "norm_label": "main.jsx"
     },
     {
+      "label": "About.jsx",
+      "file_type": "code",
+      "source_file": "src/pages/About.jsx",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "pages_about",
+      "community": 2,
+      "norm_label": "about.jsx"
+    },
+    {
+      "label": "OFFERINGS",
+      "file_type": "code",
+      "source_file": "src/pages/About.jsx",
+      "source_location": "L7",
+      "_origin": "ast",
+      "id": "pages_about_offerings",
+      "community": 2,
+      "norm_label": "offerings"
+    },
+    {
+      "label": "fadeInUp",
+      "file_type": "code",
+      "source_file": "src/pages/About.jsx",
+      "source_location": "L22",
+      "_origin": "ast",
+      "id": "pages_about_fadeinup",
+      "community": 2,
+      "norm_label": "fadeinup"
+    },
+    {
+      "label": "staggerContainer",
+      "file_type": "code",
+      "source_file": "src/pages/About.jsx",
+      "source_location": "L31",
+      "_origin": "ast",
+      "id": "pages_about_staggercontainer",
+      "community": 2,
+      "norm_label": "staggercontainer"
+    },
+    {
+      "label": "About()",
+      "file_type": "code",
+      "source_file": "src/pages/About.jsx",
+      "source_location": "L39",
+      "_origin": "ast",
+      "id": "pages_about_about",
+      "community": 2,
+      "norm_label": "about()"
+    },
+    {
       "label": "Contact.jsx",
       "file_type": "code",
       "source_file": "src/pages/Contact.jsx",
       "source_location": "L1",
       "_origin": "ast",
       "id": "pages_contact",
-      "community": 1,
+      "community": 0,
       "norm_label": "contact.jsx"
     },
     {
@@ -590,57 +640,37 @@
       "source_location": "L9",
       "_origin": "ast",
       "id": "pages_contact_contact_channels",
-      "community": 1,
+      "community": 0,
       "norm_label": "contact_channels"
-    },
-    {
-      "label": "SUBJECTS",
-      "file_type": "code",
-      "source_file": "src/pages/Contact.jsx",
-      "source_location": "L46",
-      "_origin": "ast",
-      "id": "pages_contact_subjects",
-      "community": 1,
-      "norm_label": "subjects"
     },
     {
       "label": "fadeInUp",
       "file_type": "code",
       "source_file": "src/pages/Contact.jsx",
-      "source_location": "L55",
+      "source_location": "L46",
       "_origin": "ast",
       "id": "pages_contact_fadeinup",
-      "community": 1,
+      "community": 0,
       "norm_label": "fadeinup"
     },
     {
       "label": "staggerContainer",
       "file_type": "code",
       "source_file": "src/pages/Contact.jsx",
-      "source_location": "L64",
+      "source_location": "L55",
       "_origin": "ast",
       "id": "pages_contact_staggercontainer",
-      "community": 1,
+      "community": 0,
       "norm_label": "staggercontainer"
-    },
-    {
-      "label": "INITIAL_FORM",
-      "file_type": "code",
-      "source_file": "src/pages/Contact.jsx",
-      "source_location": "L72",
-      "_origin": "ast",
-      "id": "pages_contact_initial_form",
-      "community": 1,
-      "norm_label": "initial_form"
     },
     {
       "label": "Contact()",
       "file_type": "code",
       "source_file": "src/pages/Contact.jsx",
-      "source_location": "L80",
+      "source_location": "L63",
       "_origin": "ast",
       "id": "pages_contact_contact",
-      "community": 1,
+      "community": 0,
       "norm_label": "contact()"
     },
     {
@@ -730,7 +760,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "pages_dbexpo",
-      "community": 0,
+      "community": 1,
       "norm_label": "dbexpo.jsx"
     },
     {
@@ -740,7 +770,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "pages_dbexpo_interaction_icons",
-      "community": 0,
+      "community": 1,
       "norm_label": "interaction_icons"
     },
     {
@@ -750,7 +780,7 @@
       "source_location": "L44",
       "_origin": "ast",
       "id": "pages_dbexpo_project_interactions",
-      "community": 0,
+      "community": 1,
       "norm_label": "project_interactions"
     },
     {
@@ -760,7 +790,7 @@
       "source_location": "L67",
       "_origin": "ast",
       "id": "pages_dbexpo_explore_categories",
-      "community": 0,
+      "community": 1,
       "norm_label": "explore_categories"
     },
     {
@@ -770,7 +800,7 @@
       "source_location": "L105",
       "_origin": "ast",
       "id": "pages_dbexpo_highlights",
-      "community": 0,
+      "community": 1,
       "norm_label": "highlights"
     },
     {
@@ -780,7 +810,7 @@
       "source_location": "L123",
       "_origin": "ast",
       "id": "pages_dbexpo_event_details",
-      "community": 0,
+      "community": 1,
       "norm_label": "event_details"
     },
     {
@@ -790,7 +820,7 @@
       "source_location": "L130",
       "_origin": "ast",
       "id": "pages_dbexpo_fadeinup",
-      "community": 0,
+      "community": 1,
       "norm_label": "fadeinup"
     },
     {
@@ -800,7 +830,7 @@
       "source_location": "L139",
       "_origin": "ast",
       "id": "pages_dbexpo_staggercontainer",
-      "community": 0,
+      "community": 1,
       "norm_label": "staggercontainer"
     },
     {
@@ -810,7 +840,7 @@
       "source_location": "L147",
       "_origin": "ast",
       "id": "pages_dbexpo_dbexpo",
-      "community": 3,
+      "community": 1,
       "norm_label": "dbexpo()"
     },
     {
@@ -820,7 +850,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "pages_dbliquid",
-      "community": 0,
+      "community": 5,
       "norm_label": "dbliquid.jsx"
     },
     {
@@ -830,7 +860,7 @@
       "source_location": "L12",
       "_origin": "ast",
       "id": "pages_dbliquid_steps",
-      "community": 0,
+      "community": 5,
       "norm_label": "steps"
     },
     {
@@ -840,7 +870,7 @@
       "source_location": "L30",
       "_origin": "ast",
       "id": "pages_dbliquid_fadeinup",
-      "community": 0,
+      "community": 5,
       "norm_label": "fadeinup"
     },
     {
@@ -850,7 +880,7 @@
       "source_location": "L39",
       "_origin": "ast",
       "id": "pages_dbliquid_staggercontainer",
-      "community": 0,
+      "community": 5,
       "norm_label": "staggercontainer"
     },
     {
@@ -860,8 +890,58 @@
       "source_location": "L47",
       "_origin": "ast",
       "id": "pages_dbliquid_dbliquid",
-      "community": 0,
+      "community": 5,
       "norm_label": "dbliquid()"
+    },
+    {
+      "label": "Privacy.jsx",
+      "file_type": "code",
+      "source_file": "src/pages/Privacy.jsx",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "pages_privacy",
+      "community": 0,
+      "norm_label": "privacy.jsx"
+    },
+    {
+      "label": "SECTIONS",
+      "file_type": "code",
+      "source_file": "src/pages/Privacy.jsx",
+      "source_location": "L7",
+      "_origin": "ast",
+      "id": "pages_privacy_sections",
+      "community": 0,
+      "norm_label": "sections"
+    },
+    {
+      "label": "fadeInUp",
+      "file_type": "code",
+      "source_file": "src/pages/Privacy.jsx",
+      "source_location": "L62",
+      "_origin": "ast",
+      "id": "pages_privacy_fadeinup",
+      "community": 0,
+      "norm_label": "fadeinup"
+    },
+    {
+      "label": "staggerContainer",
+      "file_type": "code",
+      "source_file": "src/pages/Privacy.jsx",
+      "source_location": "L71",
+      "_origin": "ast",
+      "id": "pages_privacy_staggercontainer",
+      "community": 0,
+      "norm_label": "staggercontainer"
+    },
+    {
+      "label": "Privacy()",
+      "file_type": "code",
+      "source_file": "src/pages/Privacy.jsx",
+      "source_location": "L79",
+      "_origin": "ast",
+      "id": "pages_privacy_privacy",
+      "community": 0,
+      "norm_label": "privacy()"
     },
     {
       "label": "vite.config.js",
@@ -1330,11 +1410,33 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "src/App.jsx",
+      "source_location": "L10",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app",
+      "target": "pages_about"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.jsx",
+      "source_location": "L10",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app",
+      "target": "pages_about_about"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.jsx",
       "source_location": "L9",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_app",
-      "target": "pages_contact",
-      "confidence_score": 1.0
+      "target": "pages_contact"
     },
     {
       "relation": "imports",
@@ -1343,9 +1445,9 @@
       "source_file": "src/App.jsx",
       "source_location": "L9",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_app",
-      "target": "pages_contact_contact",
-      "confidence_score": 1.0
+      "target": "pages_contact_contact"
     },
     {
       "relation": "imports_from",
@@ -1412,6 +1514,28 @@
       "confidence_score": 1.0,
       "source": "src_app",
       "target": "pages_dbliquid_dbliquid"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.jsx",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "src_app",
+      "target": "pages_privacy",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.jsx",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "src_app",
+      "target": "pages_privacy_privacy",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -1584,45 +1708,78 @@
       "relation": "imports_from",
       "context": "import",
       "confidence": "EXTRACTED",
+      "source_file": "src/pages/About.jsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "pages_about",
+      "target": "components_footer"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
       "source_file": "src/pages/Contact.jsx",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "pages_contact",
+      "target": "components_footer"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/DBAssets.jsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "pages_dbassets",
+      "target": "components_footer"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/DBExpo.jsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "pages_dbexpo",
+      "target": "components_footer"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/DBLiquid.jsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "pages_dbliquid",
+      "target": "components_footer"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/Privacy.jsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "pages_privacy",
       "target": "components_footer",
       "confidence_score": 1.0
     },
     {
-      "relation": "imports_from",
+      "relation": "imports",
       "context": "import",
       "confidence": "EXTRACTED",
-      "source_file": "src/pages/DBAssets.jsx",
+      "source_file": "src/pages/About.jsx",
       "source_location": "L4",
       "weight": 1.0,
       "confidence_score": 1.0,
-      "source": "pages_dbassets",
-      "target": "components_footer"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/pages/DBExpo.jsx",
-      "source_location": "L4",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "pages_dbexpo",
-      "target": "components_footer"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/pages/DBLiquid.jsx",
-      "source_location": "L4",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "pages_dbliquid",
-      "target": "components_footer"
+      "source": "pages_about",
+      "target": "components_footer_footer"
     },
     {
       "relation": "imports",
@@ -1631,9 +1788,9 @@
       "source_file": "src/pages/Contact.jsx",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "pages_contact",
-      "target": "components_footer_footer",
-      "confidence_score": 1.0
+      "target": "components_footer_footer"
     },
     {
       "relation": "imports",
@@ -1667,6 +1824,17 @@
       "confidence_score": 1.0,
       "source": "pages_dbliquid",
       "target": "components_footer_footer"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/Privacy.jsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "pages_privacy",
+      "target": "components_footer_footer",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -1733,45 +1901,78 @@
       "relation": "imports_from",
       "context": "import",
       "confidence": "EXTRACTED",
+      "source_file": "src/pages/About.jsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "pages_about",
+      "target": "components_navbar"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
       "source_file": "src/pages/Contact.jsx",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "pages_contact",
+      "target": "components_navbar"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/DBAssets.jsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "pages_dbassets",
+      "target": "components_navbar"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/DBExpo.jsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "pages_dbexpo",
+      "target": "components_navbar"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/DBLiquid.jsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "pages_dbliquid",
+      "target": "components_navbar"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/Privacy.jsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "pages_privacy",
       "target": "components_navbar",
       "confidence_score": 1.0
     },
     {
-      "relation": "imports_from",
+      "relation": "imports",
       "context": "import",
       "confidence": "EXTRACTED",
-      "source_file": "src/pages/DBAssets.jsx",
+      "source_file": "src/pages/About.jsx",
       "source_location": "L3",
       "weight": 1.0,
       "confidence_score": 1.0,
-      "source": "pages_dbassets",
-      "target": "components_navbar"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/pages/DBExpo.jsx",
-      "source_location": "L3",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "pages_dbexpo",
-      "target": "components_navbar"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/pages/DBLiquid.jsx",
-      "source_location": "L3",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "pages_dbliquid",
-      "target": "components_navbar"
+      "source": "pages_about",
+      "target": "components_navbar_navbar"
     },
     {
       "relation": "imports",
@@ -1780,9 +1981,9 @@
       "source_file": "src/pages/Contact.jsx",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "pages_contact",
-      "target": "components_navbar_navbar",
-      "confidence_score": 1.0
+      "target": "components_navbar_navbar"
     },
     {
       "relation": "imports",
@@ -1816,6 +2017,17 @@
       "confidence_score": 1.0,
       "source": "pages_dbliquid",
       "target": "components_navbar_navbar"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/Privacy.jsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "pages_privacy",
+      "target": "components_navbar_navbar",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -1922,12 +2134,52 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
+      "source_file": "src/pages/About.jsx",
+      "source_location": "L39",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "pages_about",
+      "target": "pages_about_about"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/About.jsx",
+      "source_location": "L22",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "pages_about",
+      "target": "pages_about_fadeinup"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/About.jsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "pages_about",
+      "target": "pages_about_offerings"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/About.jsx",
+      "source_location": "L31",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "pages_about",
+      "target": "pages_about_staggercontainer"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
       "source_file": "src/pages/Contact.jsx",
       "source_location": "L80",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "pages_contact",
-      "target": "pages_contact_contact",
-      "confidence_score": 1.0
+      "target": "pages_contact_contact"
     },
     {
       "relation": "contains",
@@ -1935,9 +2187,9 @@
       "source_file": "src/pages/Contact.jsx",
       "source_location": "L9",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "pages_contact",
-      "target": "pages_contact_contact_channels",
-      "confidence_score": 1.0
+      "target": "pages_contact_contact_channels"
     },
     {
       "relation": "contains",
@@ -1945,19 +2197,9 @@
       "source_file": "src/pages/Contact.jsx",
       "source_location": "L55",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "pages_contact",
-      "target": "pages_contact_fadeinup",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/pages/Contact.jsx",
-      "source_location": "L72",
-      "weight": 1.0,
-      "source": "pages_contact",
-      "target": "pages_contact_initial_form",
-      "confidence_score": 1.0
+      "target": "pages_contact_fadeinup"
     },
     {
       "relation": "contains",
@@ -1965,19 +2207,9 @@
       "source_file": "src/pages/Contact.jsx",
       "source_location": "L64",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "pages_contact",
-      "target": "pages_contact_staggercontainer",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/pages/Contact.jsx",
-      "source_location": "L46",
-      "weight": 1.0,
-      "source": "pages_contact",
-      "target": "pages_contact_subjects",
-      "confidence_score": 1.0
+      "target": "pages_contact_staggercontainer"
     },
     {
       "relation": "contains",
@@ -2172,6 +2404,46 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
+      "source_file": "src/pages/Privacy.jsx",
+      "source_location": "L62",
+      "weight": 1.0,
+      "source": "pages_privacy",
+      "target": "pages_privacy_fadeinup",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/Privacy.jsx",
+      "source_location": "L79",
+      "weight": 1.0,
+      "source": "pages_privacy",
+      "target": "pages_privacy_privacy",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/Privacy.jsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "pages_privacy",
+      "target": "pages_privacy_sections",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/Privacy.jsx",
+      "source_location": "L71",
+      "weight": 1.0,
+      "source": "pages_privacy",
+      "target": "pages_privacy_staggercontainer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
       "source_file": "src/design.md",
       "source_location": "L1",
       "weight": 1.0,
@@ -2291,5 +2563,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "052a55bc43e1ceb832bcb242a93a8a8ed7018f2b"
+  "built_at_commit": "07d2cb15ffd297c58864e506148be57a1ef3f392"
 }

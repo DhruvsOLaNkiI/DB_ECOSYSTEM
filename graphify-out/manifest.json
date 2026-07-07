@@ -10,8 +10,8 @@
     "semantic_hash": ""
   },
   "src/App.jsx": {
-    "mtime": 1783406078.9302418,
-    "ast_hash": "adb309e6af1e9fffc5d84e4e2084a3b8",
+    "mtime": 1783417893.0651903,
+    "ast_hash": "207329d93ce532a4d6d6093c55e5abf7",
     "semantic_hash": ""
   },
   "src/components/EcosystemIntro.jsx": {
@@ -25,8 +25,8 @@
     "semantic_hash": ""
   },
   "src/components/Footer.jsx": {
-    "mtime": 1783406080.417788,
-    "ast_hash": "bfb468e9855ef97999a22a1adacea937",
+    "mtime": 1783417891.8561966,
+    "ast_hash": "fcd75fcf887f30599963f20635b09f41",
     "semantic_hash": ""
   },
   "src/components/Lightfall.jsx": {
@@ -120,8 +120,18 @@
     "semantic_hash": ""
   },
   "src/pages/Contact.jsx": {
-    "mtime": 1783406044.9937558,
-    "ast_hash": "8cbfd6c5cce6f03efd924bb2f110268c",
+    "mtime": 1783406770.7764387,
+    "ast_hash": "d4728af021c917fa0978809d360359f7",
+    "semantic_hash": ""
+  },
+  "src/pages/About.jsx": {
+    "mtime": 1783417601.4922297,
+    "ast_hash": "eb6e85e255f46f4c676c9de1b34960c5",
+    "semantic_hash": ""
+  },
+  "src/pages/Privacy.jsx": {
+    "mtime": 1783417874.7463439,
+    "ast_hash": "0ab9cf393250ed66a57ada5604398639",
     "semantic_hash": ""
   }
 }

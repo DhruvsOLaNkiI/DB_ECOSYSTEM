@@ -18,9 +18,10 @@ export default function Footer() {
         <div className="site-footer-col">
           <h4>Quick Links</h4>
           <Link to="/">Home</Link>
-          <Link to="/#about">About Us</Link>
+          <Link to="/about">About Us</Link>
           <Link to="/#products">Products</Link>
           <Link to="/contact">Contact Us</Link>
+          <Link to="/privacy">Privacy Policy</Link>
         </div>
         <div className="site-footer-col">
           <h4>Products</h4>

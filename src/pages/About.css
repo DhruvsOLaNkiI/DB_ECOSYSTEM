@@ -1,0 +1,185 @@
+/* About — Digital Broker dark + orange theme */
+.ab-page {
+  position: relative;
+  min-height: 100vh;
+  background: #000000;
+  color: #ffffff;
+  font-family: "Plus Jakarta Sans", "Inter", system-ui, sans-serif;
+  font-weight: 500;
+  overflow-x: hidden;
+}
+
+.ab-bg {
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  background:
+    radial-gradient(ellipse 75% 60% at 78% 32%, rgba(249, 115, 22, 0.38) 0%, rgba(249, 115, 22, 0.08) 42%, transparent 68%),
+    radial-gradient(ellipse 55% 50% at 18% 10%, rgba(249, 115, 22, 0.22) 0%, transparent 58%),
+    radial-gradient(ellipse 90% 50% at 50% 100%, rgba(180, 83, 9, 0.14) 0%, transparent 55%),
+    linear-gradient(180deg, #1a0f08 0%, #0c0805 40%, #000000 100%);
+}
+
+.ab-page-content {
+  position: relative;
+  z-index: 1;
+}
+
+.ab-eyebrow {
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #f97316;
+  margin-bottom: 16px;
+}
+
+.ab-hero {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 148px 24px 64px;
+  text-align: center;
+}
+
+.ab-h1 {
+  font-size: clamp(36px, 5vw, 56px);
+  font-weight: 800;
+  line-height: 1.1;
+  letter-spacing: -1.8px;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+
+.ab-sub {
+  font-size: 17px;
+  line-height: 1.7;
+  color: rgba(255, 255, 255, 0.58);
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+.ab-section {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 24px 80px;
+}
+
+.ab-section-head {
+  margin-bottom: 40px;
+}
+
+.ab-section-title {
+  font-size: clamp(28px, 4vw, 40px);
+  font-weight: 800;
+  letter-spacing: -1.2px;
+  line-height: 1.15;
+  color: #ffffff;
+  margin-bottom: 16px;
+}
+
+.ab-body {
+  font-size: 16px;
+  line-height: 1.75;
+  color: rgba(255, 255, 255, 0.62);
+  margin: 0 0 20px;
+}
+
+.ab-body--last {
+  margin-bottom: 0;
+}
+
+.ab-quote {
+  margin: 28px 0;
+  padding: 24px 28px;
+  border-left: 3px solid #f97316;
+  background: rgba(249, 115, 22, 0.06);
+  border-radius: 0 12px 12px 0;
+  font-size: 17px;
+  line-height: 1.7;
+  font-style: italic;
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.ab-mission {
+  padding-bottom: 80px;
+}
+
+.ab-offerings {
+  max-width: 1200px;
+  padding-bottom: 100px;
+}
+
+.ab-offerings-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.ab-offering-card {
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 20px;
+  padding: 32px 28px;
+  transition: border-color 0.25s, background 0.25s, transform 0.25s;
+}
+
+.ab-offering-card:hover {
+  background: rgba(255, 255, 255, 0.07);
+  border-color: rgba(249, 115, 22, 0.35);
+  transform: translateY(-4px);
+}
+
+.ab-offering-title {
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: -0.3px;
+  margin-bottom: 12px;
+  color: #f97316;
+}
+
+.ab-offering-desc {
+  font-size: 15px;
+  line-height: 1.65;
+  color: rgba(255, 255, 255, 0.62);
+  margin: 0;
+}
+
+.ab-advantage {
+  max-width: 900px;
+  padding-bottom: 100px;
+}
+
+.ab-advantage-inner {
+  padding: 48px 40px;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(249, 115, 22, 0.2);
+  border-radius: 24px;
+  box-shadow: 0 0 60px rgba(249, 115, 22, 0.06);
+}
+
+@media (max-width: 968px) {
+  .ab-offerings-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 640px) {
+  .ab-hero {
+    padding: 120px 20px 48px;
+  }
+
+  .ab-section {
+    padding: 0 16px 64px;
+  }
+
+  .ab-advantage-inner {
+    padding: 32px 24px;
+  }
+
+  .ab-quote {
+    padding: 20px 22px;
+    font-size: 16px;
+  }
+}

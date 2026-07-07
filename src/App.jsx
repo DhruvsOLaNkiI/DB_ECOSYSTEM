@@ -7,6 +7,8 @@ import DBAssets from "./pages/DBAssets.jsx";
 import DBExpo from "./pages/DBExpo.jsx";
 import DBLiquid from "./pages/DBLiquid.jsx";
 import Contact from "./pages/Contact.jsx";
+import About from "./pages/About.jsx";
+import Privacy from "./pages/Privacy.jsx";
 import EcosystemIntro from "./components/EcosystemIntro.jsx";
 import ProductLogo from "./components/ProductLogo.jsx";
 import "./App.css";
@@ -197,6 +199,8 @@ export default function App() {
       <Route path="/assets" element={<DBAssets />} />
       <Route path="/liquid" element={<DBLiquid />} />
       <Route path="/contact" element={<Contact />} />
+      <Route path="/about" element={<About />} />
+      <Route path="/privacy" element={<Privacy />} />
     </Routes>
   );
 }
