@@ -267,7 +267,7 @@
       "label": "App()",
       "file_type": "code",
       "source_file": "src/App.jsx",
-      "source_location": "L199",
+      "source_location": "L174",
       "_origin": "ast",
       "id": "src_app_app",
       "community": 3,
@@ -300,7 +300,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "components_ecosystemintro",
-      "community": 6,
+      "community": 3,
       "norm_label": "ecosystemintro.jsx"
     },
     {
@@ -310,7 +310,7 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "components_ecosystemintro_orbit_icons",
-      "community": 6,
+      "community": 3,
       "norm_label": "orbit_icons"
     },
     {
@@ -320,8 +320,178 @@
       "source_location": "L48",
       "_origin": "ast",
       "id": "components_ecosystemintro_ecosystemintro",
-      "community": 6,
+      "community": 3,
       "norm_label": "ecosystemintro()"
+    },
+    {
+      "label": "ElectricBorder.jsx",
+      "file_type": "code",
+      "source_file": "src/components/ElectricBorder.jsx",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "components_electricborder",
+      "community": 11,
+      "norm_label": "electricborder.jsx"
+    },
+    {
+      "label": "hexToRgba()",
+      "file_type": "code",
+      "source_file": "src/components/ElectricBorder.jsx",
+      "source_location": "L6",
+      "_origin": "ast",
+      "id": "components_electricborder_hextorgba",
+      "community": 11,
+      "norm_label": "hextorgba()"
+    },
+    {
+      "label": "ElectricBorder()",
+      "file_type": "code",
+      "source_file": "src/components/ElectricBorder.jsx",
+      "source_location": "L22",
+      "_origin": "ast",
+      "id": "components_electricborder_electricborder",
+      "community": 11,
+      "norm_label": "electricborder()"
+    },
+    {
+      "label": "Footer.jsx",
+      "file_type": "code",
+      "source_file": "src/components/Footer.jsx",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "components_footer",
+      "community": 0,
+      "norm_label": "footer.jsx"
+    },
+    {
+      "label": "Footer()",
+      "file_type": "code",
+      "source_file": "src/components/Footer.jsx",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "components_footer_footer",
+      "community": 0,
+      "norm_label": "footer()"
+    },
+    {
+      "label": "Lightfall.jsx",
+      "file_type": "code",
+      "source_file": "src/components/Lightfall.jsx",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "components_lightfall",
+      "community": 9,
+      "norm_label": "lightfall.jsx"
+    },
+    {
+      "label": "hexToRGB()",
+      "file_type": "code",
+      "source_file": "src/components/Lightfall.jsx",
+      "source_location": "L6",
+      "_origin": "ast",
+      "id": "components_lightfall_hextorgb",
+      "community": 9,
+      "norm_label": "hextorgb()"
+    },
+    {
+      "label": "prepColors()",
+      "file_type": "code",
+      "source_file": "src/components/Lightfall.jsx",
+      "source_location": "L14",
+      "_origin": "ast",
+      "id": "components_lightfall_prepcolors",
+      "community": 9,
+      "norm_label": "prepcolors()"
+    },
+    {
+      "label": "Lightfall()",
+      "file_type": "code",
+      "source_file": "src/components/Lightfall.jsx",
+      "source_location": "L172",
+      "_origin": "ast",
+      "id": "components_lightfall_lightfall",
+      "community": 9,
+      "norm_label": "lightfall()"
+    },
+    {
+      "label": "Navbar.jsx",
+      "file_type": "code",
+      "source_file": "src/components/Navbar.jsx",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "components_navbar",
+      "community": 0,
+      "norm_label": "navbar.jsx"
+    },
+    {
+      "label": "TABS",
+      "file_type": "code",
+      "source_file": "src/components/Navbar.jsx",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "components_navbar_tabs",
+      "community": 0,
+      "norm_label": "tabs"
+    },
+    {
+      "label": "Navbar()",
+      "file_type": "code",
+      "source_file": "src/components/Navbar.jsx",
+      "source_location": "L12",
+      "_origin": "ast",
+      "id": "components_navbar_navbar",
+      "community": 0,
+      "norm_label": "navbar()"
+    },
+    {
+      "label": "Prism.jsx",
+      "file_type": "code",
+      "source_file": "src/components/Prism.jsx",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "components_prism",
+      "community": 12,
+      "norm_label": "prism.jsx"
+    },
+    {
+      "label": "Prism()",
+      "file_type": "code",
+      "source_file": "src/components/Prism.jsx",
+      "source_location": "L4",
+      "_origin": "ast",
+      "id": "components_prism_prism",
+      "community": 12,
+      "norm_label": "prism()"
+    },
+    {
+      "label": "ProductLogo.jsx",
+      "file_type": "code",
+      "source_file": "src/components/ProductLogo.jsx",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "components_productlogo",
+      "community": 3,
+      "norm_label": "productlogo.jsx"
+    },
+    {
+      "label": "PRODUCT_LABELS",
+      "file_type": "code",
+      "source_file": "src/components/ProductLogo.jsx",
+      "source_location": "L4",
+      "_origin": "ast",
+      "id": "components_productlogo_product_labels",
+      "community": 3,
+      "norm_label": "product_labels"
+    },
+    {
+      "label": "ProductLogo()",
+      "file_type": "code",
+      "source_file": "src/components/ProductLogo.jsx",
+      "source_location": "L10",
+      "_origin": "ast",
+      "id": "components_productlogo_productlogo",
+      "community": 3,
+      "norm_label": "productlogo()"
     },
     {
       "label": "RotatingText.jsx",
@@ -364,13 +534,293 @@
       "norm_label": "rotatingtext"
     },
     {
+      "label": "data.js",
+      "file_type": "code",
+      "source_file": "src/data.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "src_data",
+      "community": 3,
+      "norm_label": "data.js"
+    },
+    {
+      "label": "ECOSYSTEM_DATA",
+      "file_type": "code",
+      "source_file": "src/data.js",
+      "source_location": "L2",
+      "_origin": "ast",
+      "id": "src_data_ecosystem_data",
+      "community": 3,
+      "norm_label": "ecosystem_data"
+    },
+    {
+      "label": "HOME_TAB",
+      "file_type": "code",
+      "source_file": "src/data.js",
+      "source_location": "L38",
+      "_origin": "ast",
+      "id": "src_data_home_tab",
+      "community": 3,
+      "norm_label": "home_tab"
+    },
+    {
+      "label": "main.jsx",
+      "file_type": "code",
+      "source_file": "src/main.jsx",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "src_main",
+      "community": 3,
+      "norm_label": "main.jsx"
+    },
+    {
+      "label": "Contact.jsx",
+      "file_type": "code",
+      "source_file": "src/pages/Contact.jsx",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "pages_contact",
+      "community": 1,
+      "norm_label": "contact.jsx"
+    },
+    {
+      "label": "CONTACT_CHANNELS",
+      "file_type": "code",
+      "source_file": "src/pages/Contact.jsx",
+      "source_location": "L9",
+      "_origin": "ast",
+      "id": "pages_contact_contact_channels",
+      "community": 1,
+      "norm_label": "contact_channels"
+    },
+    {
+      "label": "SUBJECTS",
+      "file_type": "code",
+      "source_file": "src/pages/Contact.jsx",
+      "source_location": "L46",
+      "_origin": "ast",
+      "id": "pages_contact_subjects",
+      "community": 1,
+      "norm_label": "subjects"
+    },
+    {
+      "label": "fadeInUp",
+      "file_type": "code",
+      "source_file": "src/pages/Contact.jsx",
+      "source_location": "L55",
+      "_origin": "ast",
+      "id": "pages_contact_fadeinup",
+      "community": 1,
+      "norm_label": "fadeinup"
+    },
+    {
+      "label": "staggerContainer",
+      "file_type": "code",
+      "source_file": "src/pages/Contact.jsx",
+      "source_location": "L64",
+      "_origin": "ast",
+      "id": "pages_contact_staggercontainer",
+      "community": 1,
+      "norm_label": "staggercontainer"
+    },
+    {
+      "label": "INITIAL_FORM",
+      "file_type": "code",
+      "source_file": "src/pages/Contact.jsx",
+      "source_location": "L72",
+      "_origin": "ast",
+      "id": "pages_contact_initial_form",
+      "community": 1,
+      "norm_label": "initial_form"
+    },
+    {
+      "label": "Contact()",
+      "file_type": "code",
+      "source_file": "src/pages/Contact.jsx",
+      "source_location": "L80",
+      "_origin": "ast",
+      "id": "pages_contact_contact",
+      "community": 1,
+      "norm_label": "contact()"
+    },
+    {
+      "label": "DBAssets.jsx",
+      "file_type": "code",
+      "source_file": "src/pages/DBAssets.jsx",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "pages_dbassets",
+      "community": 2,
+      "norm_label": "dbassets.jsx"
+    },
+    {
+      "label": "SERVICES",
+      "file_type": "code",
+      "source_file": "src/pages/DBAssets.jsx",
+      "source_location": "L7",
+      "_origin": "ast",
+      "id": "pages_dbassets_services",
+      "community": 2,
+      "norm_label": "services"
+    },
+    {
+      "label": "STEPS",
+      "file_type": "code",
+      "source_file": "src/pages/DBAssets.jsx",
+      "source_location": "L47",
+      "_origin": "ast",
+      "id": "pages_dbassets_steps",
+      "community": 2,
+      "norm_label": "steps"
+    },
+    {
+      "label": "AUDIENCES",
+      "file_type": "code",
+      "source_file": "src/pages/DBAssets.jsx",
+      "source_location": "L65",
+      "_origin": "ast",
+      "id": "pages_dbassets_audiences",
+      "community": 2,
+      "norm_label": "audiences"
+    },
+    {
+      "label": "BENEFITS",
+      "file_type": "code",
+      "source_file": "src/pages/DBAssets.jsx",
+      "source_location": "L80",
+      "_origin": "ast",
+      "id": "pages_dbassets_benefits",
+      "community": 2,
+      "norm_label": "benefits"
+    },
+    {
+      "label": "fadeInUp",
+      "file_type": "code",
+      "source_file": "src/pages/DBAssets.jsx",
+      "source_location": "L89",
+      "_origin": "ast",
+      "id": "pages_dbassets_fadeinup",
+      "community": 2,
+      "norm_label": "fadeinup"
+    },
+    {
+      "label": "staggerContainer",
+      "file_type": "code",
+      "source_file": "src/pages/DBAssets.jsx",
+      "source_location": "L98",
+      "_origin": "ast",
+      "id": "pages_dbassets_staggercontainer",
+      "community": 2,
+      "norm_label": "staggercontainer"
+    },
+    {
+      "label": "DBAssets()",
+      "file_type": "code",
+      "source_file": "src/pages/DBAssets.jsx",
+      "source_location": "L106",
+      "_origin": "ast",
+      "id": "pages_dbassets_dbassets",
+      "community": 2,
+      "norm_label": "dbassets()"
+    },
+    {
+      "label": "DBExpo.jsx",
+      "file_type": "code",
+      "source_file": "src/pages/DBExpo.jsx",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "pages_dbexpo",
+      "community": 0,
+      "norm_label": "dbexpo.jsx"
+    },
+    {
+      "label": "INTERACTION_ICONS",
+      "file_type": "code",
+      "source_file": "src/pages/DBExpo.jsx",
+      "source_location": "L13",
+      "_origin": "ast",
+      "id": "pages_dbexpo_interaction_icons",
+      "community": 0,
+      "norm_label": "interaction_icons"
+    },
+    {
+      "label": "PROJECT_INTERACTIONS",
+      "file_type": "code",
+      "source_file": "src/pages/DBExpo.jsx",
+      "source_location": "L44",
+      "_origin": "ast",
+      "id": "pages_dbexpo_project_interactions",
+      "community": 0,
+      "norm_label": "project_interactions"
+    },
+    {
+      "label": "EXPLORE_CATEGORIES",
+      "file_type": "code",
+      "source_file": "src/pages/DBExpo.jsx",
+      "source_location": "L67",
+      "_origin": "ast",
+      "id": "pages_dbexpo_explore_categories",
+      "community": 0,
+      "norm_label": "explore_categories"
+    },
+    {
+      "label": "HIGHLIGHTS",
+      "file_type": "code",
+      "source_file": "src/pages/DBExpo.jsx",
+      "source_location": "L105",
+      "_origin": "ast",
+      "id": "pages_dbexpo_highlights",
+      "community": 0,
+      "norm_label": "highlights"
+    },
+    {
+      "label": "EVENT_DETAILS",
+      "file_type": "code",
+      "source_file": "src/pages/DBExpo.jsx",
+      "source_location": "L123",
+      "_origin": "ast",
+      "id": "pages_dbexpo_event_details",
+      "community": 0,
+      "norm_label": "event_details"
+    },
+    {
+      "label": "fadeInUp",
+      "file_type": "code",
+      "source_file": "src/pages/DBExpo.jsx",
+      "source_location": "L130",
+      "_origin": "ast",
+      "id": "pages_dbexpo_fadeinup",
+      "community": 0,
+      "norm_label": "fadeinup"
+    },
+    {
+      "label": "staggerContainer",
+      "file_type": "code",
+      "source_file": "src/pages/DBExpo.jsx",
+      "source_location": "L139",
+      "_origin": "ast",
+      "id": "pages_dbexpo_staggercontainer",
+      "community": 0,
+      "norm_label": "staggercontainer"
+    },
+    {
+      "label": "DBExpo()",
+      "file_type": "code",
+      "source_file": "src/pages/DBExpo.jsx",
+      "source_location": "L147",
+      "_origin": "ast",
+      "id": "pages_dbexpo_dbexpo",
+      "community": 3,
+      "norm_label": "dbexpo()"
+    },
+    {
       "label": "DBLiquid.jsx",
       "file_type": "code",
       "source_file": "src/pages/DBLiquid.jsx",
       "source_location": "L1",
       "_origin": "ast",
       "id": "pages_dbliquid",
-      "community": 1,
+      "community": 0,
       "norm_label": "dbliquid.jsx"
     },
     {
@@ -380,7 +830,7 @@
       "source_location": "L12",
       "_origin": "ast",
       "id": "pages_dbliquid_steps",
-      "community": 1,
+      "community": 0,
       "norm_label": "steps"
     },
     {
@@ -390,7 +840,7 @@
       "source_location": "L30",
       "_origin": "ast",
       "id": "pages_dbliquid_fadeinup",
-      "community": 1,
+      "community": 0,
       "norm_label": "fadeinup"
     },
     {
@@ -400,7 +850,7 @@
       "source_location": "L39",
       "_origin": "ast",
       "id": "pages_dbliquid_staggercontainer",
-      "community": 1,
+      "community": 0,
       "norm_label": "staggercontainer"
     },
     {
@@ -410,268 +860,148 @@
       "source_location": "L47",
       "_origin": "ast",
       "id": "pages_dbliquid_dbliquid",
-      "community": 1,
+      "community": 0,
       "norm_label": "dbliquid()"
     },
     {
-      "label": "Navbar.jsx",
+      "label": "vite.config.js",
       "file_type": "code",
-      "source_file": "src/components/Navbar.jsx",
+      "source_file": "vite.config.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 1,
-      "norm_label": "navbar.jsx",
-      "id": "components_navbar"
+      "id": "vite_config",
+      "community": 13,
+      "norm_label": "vite.config.js"
     },
     {
-      "label": "TABS",
-      "file_type": "code",
-      "source_file": "src/components/Navbar.jsx",
-      "source_location": "L5",
+      "label": "design.md",
+      "file_type": "document",
+      "source_file": "src/design.md",
+      "source_location": "L1",
       "_origin": "ast",
-      "community": 1,
-      "norm_label": "tabs",
-      "id": "components_navbar_tabs"
+      "id": "src_design",
+      "community": 6,
+      "norm_label": "design.md"
     },
     {
-      "label": "Navbar()",
-      "file_type": "code",
-      "source_file": "src/components/Navbar.jsx",
+      "label": "Supaste \u2014 Clipboard History Manager for Mac",
+      "file_type": "document",
+      "source_file": "src/design.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "src_design_supaste_clipboard_history_manager_for_mac",
+      "community": 6,
+      "norm_label": "supaste \u2014 clipboard history manager for mac"
+    },
+    {
+      "label": "Mission",
+      "file_type": "document",
+      "source_file": "src/design.md",
+      "source_location": "L3",
+      "_origin": "ast",
+      "id": "src_design_mission",
+      "community": 6,
+      "norm_label": "mission"
+    },
+    {
+      "label": "Brand",
+      "file_type": "document",
+      "source_file": "src/design.md",
+      "source_location": "L6",
+      "_origin": "ast",
+      "id": "src_design_brand",
+      "community": 6,
+      "norm_label": "brand"
+    },
+    {
+      "label": "Style Foundations",
+      "file_type": "document",
+      "source_file": "src/design.md",
       "source_location": "L12",
       "_origin": "ast",
-      "community": 1,
-      "norm_label": "navbar()",
-      "id": "components_navbar_navbar"
-    },
-    {
-      "label": "ProductLogo.jsx",
-      "file_type": "code",
-      "source_file": "src/components/ProductLogo.jsx",
-      "source_location": "L1",
-      "_origin": "ast",
+      "id": "src_design_style_foundations",
       "community": 6,
-      "norm_label": "productlogo.jsx",
-      "id": "components_productlogo"
+      "norm_label": "style foundations"
     },
     {
-      "label": "PRODUCT_LABELS",
-      "file_type": "code",
-      "source_file": "src/components/ProductLogo.jsx",
-      "source_location": "L4",
+      "label": "Accessibility",
+      "file_type": "document",
+      "source_file": "src/design.md",
+      "source_location": "L20",
       "_origin": "ast",
+      "id": "src_design_accessibility",
       "community": 6,
-      "norm_label": "product_labels",
-      "id": "components_productlogo_product_labels"
+      "norm_label": "accessibility"
     },
     {
-      "label": "ProductLogo()",
-      "file_type": "code",
-      "source_file": "src/components/ProductLogo.jsx",
-      "source_location": "L10",
+      "label": "Writing Tone",
+      "file_type": "document",
+      "source_file": "src/design.md",
+      "source_location": "L26",
       "_origin": "ast",
+      "id": "src_design_writing_tone",
       "community": 6,
-      "norm_label": "productlogo()",
-      "id": "components_productlogo_productlogo"
+      "norm_label": "writing tone"
     },
     {
-      "label": "data.js",
-      "file_type": "code",
-      "source_file": "src/data.js",
-      "source_location": "L1",
+      "label": "Rules: Do",
+      "file_type": "document",
+      "source_file": "src/design.md",
+      "source_location": "L29",
       "_origin": "ast",
-      "community": 3,
-      "norm_label": "data.js",
-      "id": "src_data"
+      "id": "src_design_rules_do",
+      "community": 6,
+      "norm_label": "rules: do"
     },
     {
-      "label": "ECOSYSTEM_DATA",
-      "file_type": "code",
-      "source_file": "src/data.js",
-      "source_location": "L2",
+      "label": "Rules: Don't",
+      "file_type": "document",
+      "source_file": "src/design.md",
+      "source_location": "L36",
       "_origin": "ast",
-      "community": 3,
-      "norm_label": "ecosystem_data",
-      "id": "src_data_ecosystem_data"
+      "id": "src_design_rules_don_t",
+      "community": 6,
+      "norm_label": "rules: don't"
     },
     {
-      "label": "HOME_TAB",
-      "file_type": "code",
-      "source_file": "src/data.js",
-      "source_location": "L38",
+      "label": "Guideline Authoring Workflow",
+      "file_type": "document",
+      "source_file": "src/design.md",
+      "source_location": "L42",
       "_origin": "ast",
-      "community": 3,
-      "norm_label": "home_tab",
-      "id": "src_data_home_tab"
+      "id": "src_design_guideline_authoring_workflow",
+      "community": 6,
+      "norm_label": "guideline authoring workflow"
     },
     {
-      "label": "DBAssets.jsx",
-      "file_type": "code",
-      "source_file": "src/pages/DBAssets.jsx",
-      "source_location": "L1",
+      "label": "Required Output Structure",
+      "file_type": "document",
+      "source_file": "src/design.md",
+      "source_location": "L50",
       "_origin": "ast",
-      "community": 2,
-      "norm_label": "dbassets.jsx",
-      "id": "pages_dbassets"
+      "id": "src_design_required_output_structure",
+      "community": 6,
+      "norm_label": "required output structure"
     },
     {
-      "label": "SERVICES",
-      "file_type": "code",
-      "source_file": "src/pages/DBAssets.jsx",
-      "source_location": "L7",
+      "label": "Component Rule Expectations",
+      "file_type": "document",
+      "source_file": "src/design.md",
+      "source_location": "L59",
       "_origin": "ast",
-      "community": 2,
-      "norm_label": "services",
-      "id": "pages_dbassets_services"
+      "id": "src_design_component_rule_expectations",
+      "community": 6,
+      "norm_label": "component rule expectations"
     },
     {
-      "label": "STEPS",
-      "file_type": "code",
-      "source_file": "src/pages/DBAssets.jsx",
-      "source_location": "L44",
-      "_origin": "ast",
-      "community": 2,
-      "norm_label": "steps",
-      "id": "pages_dbassets_steps"
-    },
-    {
-      "label": "AUDIENCES",
-      "file_type": "code",
-      "source_file": "src/pages/DBAssets.jsx",
-      "source_location": "L62",
-      "_origin": "ast",
-      "community": 2,
-      "norm_label": "audiences",
-      "id": "pages_dbassets_audiences"
-    },
-    {
-      "label": "BENEFITS",
-      "file_type": "code",
-      "source_file": "src/pages/DBAssets.jsx",
-      "source_location": "L77",
-      "_origin": "ast",
-      "community": 2,
-      "norm_label": "benefits",
-      "id": "pages_dbassets_benefits"
-    },
-    {
-      "label": "fadeInUp",
-      "file_type": "code",
-      "source_file": "src/pages/DBAssets.jsx",
-      "source_location": "L86",
-      "_origin": "ast",
-      "community": 2,
-      "norm_label": "fadeinup",
-      "id": "pages_dbassets_fadeinup"
-    },
-    {
-      "label": "staggerContainer",
-      "file_type": "code",
-      "source_file": "src/pages/DBAssets.jsx",
-      "source_location": "L95",
-      "_origin": "ast",
-      "community": 2,
-      "norm_label": "staggercontainer",
-      "id": "pages_dbassets_staggercontainer"
-    },
-    {
-      "label": "DBAssets()",
-      "file_type": "code",
-      "source_file": "src/pages/DBAssets.jsx",
-      "source_location": "L103",
-      "_origin": "ast",
-      "community": 2,
-      "norm_label": "dbassets()",
-      "id": "pages_dbassets_dbassets"
-    },
-    {
-      "label": "DBExpo.jsx",
-      "file_type": "code",
-      "source_file": "src/pages/DBExpo.jsx",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 0,
-      "norm_label": "dbexpo.jsx",
-      "id": "pages_dbexpo"
-    },
-    {
-      "label": "INTERACTION_ICONS",
-      "file_type": "code",
-      "source_file": "src/pages/DBExpo.jsx",
-      "source_location": "L13",
-      "_origin": "ast",
-      "community": 0,
-      "norm_label": "interaction_icons",
-      "id": "pages_dbexpo_interaction_icons"
-    },
-    {
-      "label": "PROJECT_INTERACTIONS",
-      "file_type": "code",
-      "source_file": "src/pages/DBExpo.jsx",
-      "source_location": "L44",
-      "_origin": "ast",
-      "community": 0,
-      "norm_label": "project_interactions",
-      "id": "pages_dbexpo_project_interactions"
-    },
-    {
-      "label": "EXPLORE_CATEGORIES",
-      "file_type": "code",
-      "source_file": "src/pages/DBExpo.jsx",
+      "label": "Quality Gates",
+      "file_type": "document",
+      "source_file": "src/design.md",
       "source_location": "L67",
       "_origin": "ast",
-      "community": 0,
-      "norm_label": "explore_categories",
-      "id": "pages_dbexpo_explore_categories"
-    },
-    {
-      "label": "HIGHLIGHTS",
-      "file_type": "code",
-      "source_file": "src/pages/DBExpo.jsx",
-      "source_location": "L105",
-      "_origin": "ast",
-      "community": 0,
-      "norm_label": "highlights",
-      "id": "pages_dbexpo_highlights"
-    },
-    {
-      "label": "EVENT_DETAILS",
-      "file_type": "code",
-      "source_file": "src/pages/DBExpo.jsx",
-      "source_location": "L123",
-      "_origin": "ast",
-      "community": 0,
-      "norm_label": "event_details",
-      "id": "pages_dbexpo_event_details"
-    },
-    {
-      "label": "fadeInUp",
-      "file_type": "code",
-      "source_file": "src/pages/DBExpo.jsx",
-      "source_location": "L130",
-      "_origin": "ast",
-      "community": 0,
-      "norm_label": "fadeinup",
-      "id": "pages_dbexpo_fadeinup"
-    },
-    {
-      "label": "staggerContainer",
-      "file_type": "code",
-      "source_file": "src/pages/DBExpo.jsx",
-      "source_location": "L139",
-      "_origin": "ast",
-      "community": 0,
-      "norm_label": "staggercontainer",
-      "id": "pages_dbexpo_staggercontainer"
-    },
-    {
-      "label": "DBExpo()",
-      "file_type": "code",
-      "source_file": "src/pages/DBExpo.jsx",
-      "source_location": "L147",
-      "_origin": "ast",
-      "community": 0,
-      "norm_label": "dbexpo()",
-      "id": "pages_dbexpo_dbexpo"
+      "id": "src_design_quality_gates",
+      "community": 6,
+      "norm_label": "quality gates"
     }
   ],
   "links": [
@@ -881,9 +1211,9 @@
       "source_file": "package.json",
       "source_location": "L24",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package_dependencies",
-      "target": "package_dependencies_three",
-      "confidence_score": 1.0
+      "target": "package_dependencies_three"
     },
     {
       "relation": "imports_from",
@@ -906,6 +1236,28 @@
       "confidence_score": 1.0,
       "source": "src_app",
       "target": "components_ecosystemintro_ecosystemintro"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.jsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app",
+      "target": "components_footer"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.jsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app",
+      "target": "components_footer_footer"
     },
     {
       "relation": "imports_from",
@@ -958,9 +1310,9 @@
       "source_file": "src/App.jsx",
       "source_location": "L11",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_app",
-      "target": "components_rotatingtext",
-      "confidence_score": 1.0
+      "target": "components_rotatingtext"
     },
     {
       "relation": "imports",
@@ -969,8 +1321,30 @@
       "source_file": "src/App.jsx",
       "source_location": "L11",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_app",
-      "target": "components_rotatingtext_rotatingtext",
+      "target": "components_rotatingtext_rotatingtext"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.jsx",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "src_app",
+      "target": "pages_contact",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.jsx",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "src_app",
+      "target": "pages_contact_contact",
       "confidence_score": 1.0
     },
     {
@@ -1092,14 +1466,36 @@
       "target": "src_data_ecosystem_data"
     },
     {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main.jsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_main",
+      "target": "src_app"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main.jsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_main",
+      "target": "src_app_app"
+    },
+    {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "src/components/ColorBends.jsx",
       "source_location": "L110",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_colorbends",
-      "target": "components_colorbends_colorbends",
-      "confidence_score": 1.0
+      "target": "components_colorbends_colorbends"
     },
     {
       "relation": "contains",
@@ -1146,94 +1542,172 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "src/components/RotatingText.jsx",
-      "source_location": "L12",
+      "source_file": "src/components/ElectricBorder.jsx",
+      "source_location": "L22",
       "weight": 1.0,
-      "source": "components_rotatingtext",
-      "target": "components_rotatingtext_cn",
-      "confidence_score": 1.0
+      "confidence_score": 1.0,
+      "source": "components_electricborder",
+      "target": "components_electricborder_electricborder"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "src/components/RotatingText.jsx",
-      "source_location": "L24",
+      "source_file": "src/components/ElectricBorder.jsx",
+      "source_location": "L6",
       "weight": 1.0,
-      "source": "components_rotatingtext",
-      "target": "components_rotatingtext_rotatingtext",
-      "confidence_score": 1.0
+      "confidence_score": 1.0,
+      "source": "components_electricborder",
+      "target": "components_electricborder_hextorgba"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ElectricBorder.jsx",
+      "source_location": "L316",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "components_electricborder_electricborder",
+      "target": "components_electricborder_hextorgba"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "src/components/RotatingText.jsx",
-      "source_location": "L16",
+      "source_file": "src/components/Footer.jsx",
+      "source_location": "L5",
       "weight": 1.0,
-      "source": "components_rotatingtext",
-      "target": "components_rotatingtext_splitintocharacters",
+      "confidence_score": 1.0,
+      "source": "components_footer",
+      "target": "components_footer_footer"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/Contact.jsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "pages_contact",
+      "target": "components_footer",
       "confidence_score": 1.0
     },
     {
       "relation": "imports_from",
       "context": "import",
       "confidence": "EXTRACTED",
+      "source_file": "src/pages/DBAssets.jsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "pages_dbassets",
+      "target": "components_footer"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/DBExpo.jsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "pages_dbexpo",
+      "target": "components_footer"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
       "source_file": "src/pages/DBLiquid.jsx",
-      "source_location": "L3",
+      "source_location": "L4",
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "pages_dbliquid",
-      "target": "components_navbar"
+      "target": "components_footer"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/Contact.jsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "pages_contact",
+      "target": "components_footer_footer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/DBAssets.jsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "pages_dbassets",
+      "target": "components_footer_footer"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/DBExpo.jsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "pages_dbexpo",
+      "target": "components_footer_footer"
     },
     {
       "relation": "imports",
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "src/pages/DBLiquid.jsx",
-      "source_location": "L3",
+      "source_location": "L4",
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "pages_dbliquid",
-      "target": "components_navbar_navbar"
+      "target": "components_footer_footer"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "src/pages/DBLiquid.jsx",
-      "source_location": "L45",
+      "source_file": "src/components/Lightfall.jsx",
+      "source_location": "L6",
       "weight": 1.0,
       "confidence_score": 1.0,
-      "source": "pages_dbliquid",
-      "target": "pages_dbliquid_dbliquid"
+      "source": "components_lightfall",
+      "target": "components_lightfall_hextorgb"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "src/pages/DBLiquid.jsx",
-      "source_location": "L28",
+      "source_file": "src/components/Lightfall.jsx",
+      "source_location": "L172",
       "weight": 1.0,
       "confidence_score": 1.0,
-      "source": "pages_dbliquid",
-      "target": "pages_dbliquid_fadeinup"
+      "source": "components_lightfall",
+      "target": "components_lightfall_lightfall"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "src/pages/DBLiquid.jsx",
-      "source_location": "L37",
+      "source_file": "src/components/Lightfall.jsx",
+      "source_location": "L14",
       "weight": 1.0,
       "confidence_score": 1.0,
-      "source": "pages_dbliquid",
-      "target": "pages_dbliquid_staggercontainer"
+      "source": "components_lightfall",
+      "target": "components_lightfall_prepcolors"
     },
     {
-      "relation": "contains",
+      "relation": "calls",
+      "context": "call",
       "confidence": "EXTRACTED",
-      "source_file": "src/pages/DBLiquid.jsx",
-      "source_location": "L10",
+      "source_file": "src/components/Lightfall.jsx",
+      "source_location": "L22",
       "weight": 1.0,
       "confidence_score": 1.0,
-      "source": "pages_dbliquid",
-      "target": "pages_dbliquid_steps"
+      "source": "components_lightfall_prepcolors",
+      "target": "components_lightfall_hextorgb"
     },
     {
       "relation": "contains",
@@ -1259,6 +1733,17 @@
       "relation": "imports_from",
       "context": "import",
       "confidence": "EXTRACTED",
+      "source_file": "src/pages/Contact.jsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "pages_contact",
+      "target": "components_navbar",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
       "source_file": "src/pages/DBAssets.jsx",
       "source_location": "L3",
       "weight": 1.0,
@@ -1278,6 +1763,28 @@
       "target": "components_navbar"
     },
     {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/DBLiquid.jsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "pages_dbliquid",
+      "target": "components_navbar"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/Contact.jsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "pages_contact",
+      "target": "components_navbar_navbar",
+      "confidence_score": 1.0
+    },
+    {
       "relation": "imports",
       "context": "import",
       "confidence": "EXTRACTED",
@@ -1298,6 +1805,27 @@
       "confidence_score": 1.0,
       "source": "pages_dbexpo",
       "target": "components_navbar_navbar"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/DBLiquid.jsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "pages_dbliquid",
+      "target": "components_navbar_navbar"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Prism.jsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "components_prism",
+      "target": "components_prism_prism"
     },
     {
       "relation": "contains",
@@ -1344,6 +1872,36 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
+      "source_file": "src/components/RotatingText.jsx",
+      "source_location": "L12",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "components_rotatingtext",
+      "target": "components_rotatingtext_cn"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/RotatingText.jsx",
+      "source_location": "L24",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "components_rotatingtext",
+      "target": "components_rotatingtext_rotatingtext"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/RotatingText.jsx",
+      "source_location": "L16",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "components_rotatingtext",
+      "target": "components_rotatingtext_splitintocharacters"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
       "source_file": "src/data.js",
       "source_location": "L2",
       "weight": 1.0,
@@ -1360,6 +1918,66 @@
       "confidence_score": 1.0,
       "source": "src_data",
       "target": "src_data_home_tab"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/Contact.jsx",
+      "source_location": "L80",
+      "weight": 1.0,
+      "source": "pages_contact",
+      "target": "pages_contact_contact",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/Contact.jsx",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "pages_contact",
+      "target": "pages_contact_contact_channels",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/Contact.jsx",
+      "source_location": "L55",
+      "weight": 1.0,
+      "source": "pages_contact",
+      "target": "pages_contact_fadeinup",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/Contact.jsx",
+      "source_location": "L72",
+      "weight": 1.0,
+      "source": "pages_contact",
+      "target": "pages_contact_initial_form",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/Contact.jsx",
+      "source_location": "L64",
+      "weight": 1.0,
+      "source": "pages_contact",
+      "target": "pages_contact_staggercontainer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/Contact.jsx",
+      "source_location": "L46",
+      "weight": 1.0,
+      "source": "pages_contact",
+      "target": "pages_contact_subjects",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -1510,8 +2128,168 @@
       "confidence_score": 1.0,
       "source": "pages_dbexpo",
       "target": "pages_dbexpo_staggercontainer"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/DBLiquid.jsx",
+      "source_location": "L45",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "pages_dbliquid",
+      "target": "pages_dbliquid_dbliquid"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/DBLiquid.jsx",
+      "source_location": "L28",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "pages_dbliquid",
+      "target": "pages_dbliquid_fadeinup"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/DBLiquid.jsx",
+      "source_location": "L37",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "pages_dbliquid",
+      "target": "pages_dbliquid_staggercontainer"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/DBLiquid.jsx",
+      "source_location": "L10",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "pages_dbliquid",
+      "target": "pages_dbliquid_steps"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/design.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_design",
+      "target": "src_design_supaste_clipboard_history_manager_for_mac"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/design.md",
+      "source_location": "L20",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_design_supaste_clipboard_history_manager_for_mac",
+      "target": "src_design_accessibility"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/design.md",
+      "source_location": "L6",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_design_supaste_clipboard_history_manager_for_mac",
+      "target": "src_design_brand"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/design.md",
+      "source_location": "L59",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_design_supaste_clipboard_history_manager_for_mac",
+      "target": "src_design_component_rule_expectations"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/design.md",
+      "source_location": "L42",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_design_supaste_clipboard_history_manager_for_mac",
+      "target": "src_design_guideline_authoring_workflow"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/design.md",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_design_supaste_clipboard_history_manager_for_mac",
+      "target": "src_design_mission"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/design.md",
+      "source_location": "L67",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_design_supaste_clipboard_history_manager_for_mac",
+      "target": "src_design_quality_gates"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/design.md",
+      "source_location": "L50",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_design_supaste_clipboard_history_manager_for_mac",
+      "target": "src_design_required_output_structure"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/design.md",
+      "source_location": "L29",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_design_supaste_clipboard_history_manager_for_mac",
+      "target": "src_design_rules_do"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/design.md",
+      "source_location": "L36",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_design_supaste_clipboard_history_manager_for_mac",
+      "target": "src_design_rules_don_t"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/design.md",
+      "source_location": "L12",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_design_supaste_clipboard_history_manager_for_mac",
+      "target": "src_design_style_foundations"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/design.md",
+      "source_location": "L26",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_design_supaste_clipboard_history_manager_for_mac",
+      "target": "src_design_writing_tone"
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "bd2329e98d11852f85d77d7bdcb6a70f379bd23a"
+  "built_at_commit": "052a55bc43e1ceb832bcb242a93a8a8ed7018f2b"
 }

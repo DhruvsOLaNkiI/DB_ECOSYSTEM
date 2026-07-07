@@ -10,8 +10,8 @@
     "semantic_hash": ""
   },
   "src/App.jsx": {
-    "mtime": 1782644599.9613926,
-    "ast_hash": "3ebe374a74348917bfb0940a0e7c3f52",
+    "mtime": 1783406078.9302418,
+    "ast_hash": "adb309e6af1e9fffc5d84e4e2084a3b8",
     "semantic_hash": ""
   },
   "src/components/EcosystemIntro.jsx": {
@@ -25,8 +25,8 @@
     "semantic_hash": ""
   },
   "src/components/Footer.jsx": {
-    "mtime": 1782281961.3617764,
-    "ast_hash": "041406bcd2c7247ffc2cb824e502fb14",
+    "mtime": 1783406080.417788,
+    "ast_hash": "bfb468e9855ef97999a22a1adacea937",
     "semantic_hash": ""
   },
   "src/components/Lightfall.jsx": {
@@ -55,8 +55,8 @@
     "semantic_hash": ""
   },
   "src/pages/DBAssets.jsx": {
-    "mtime": 1782296933.1009324,
-    "ast_hash": "1f8986dc6181c21f413d594c76995d97",
+    "mtime": 1783077827.981712,
+    "ast_hash": "6a7976c9a98998935614b52abc0849b5",
     "semantic_hash": ""
   },
   "src/pages/DBExpo.jsx": {
@@ -105,8 +105,8 @@
     "semantic_hash": ""
   },
   "public/asset.tsx": {
-    "mtime": 1782637410.5811,
-    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "mtime": 1782649489.4938776,
+    "ast_hash": "73b428267e0731edbac6e7c9364f8750",
     "semantic_hash": ""
   },
   "src/components/ColorBends.jsx": {
@@ -117,6 +117,11 @@
   "src/components/RotatingText.jsx": {
     "mtime": 1782641371.1399767,
     "ast_hash": "1f89540844a5a1d631811998837d05ab",
+    "semantic_hash": ""
+  },
+  "src/pages/Contact.jsx": {
+    "mtime": 1783406044.9937558,
+    "ast_hash": "8cbfd6c5cce6f03efd924bb2f110268c",
     "semantic_hash": ""
   }
 }

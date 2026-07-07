@@ -6,6 +6,7 @@ import Footer from "./components/Footer.jsx";
 import DBAssets from "./pages/DBAssets.jsx";
 import DBExpo from "./pages/DBExpo.jsx";
 import DBLiquid from "./pages/DBLiquid.jsx";
+import Contact from "./pages/Contact.jsx";
 import EcosystemIntro from "./components/EcosystemIntro.jsx";
 import ProductLogo from "./components/ProductLogo.jsx";
 import "./App.css";
@@ -195,6 +196,7 @@ export default function App() {
       <Route path="/expo" element={<DBExpo />} />
       <Route path="/assets" element={<DBAssets />} />
       <Route path="/liquid" element={<DBLiquid />} />
+      <Route path="/contact" element={<Contact />} />
     </Routes>
   );
 }

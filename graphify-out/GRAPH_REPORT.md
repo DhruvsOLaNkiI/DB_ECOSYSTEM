@@ -1,16 +1,16 @@
-# Graph Report - DB_ECOSYSTEM  (2026-06-28)
+# Graph Report - DB_ECOSYSTEM  (2026-07-07)
 
 ## Corpus Check
-- 20 files · ~17,751 words
+- 21 files · ~19,322 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 67 nodes · 81 edges · 9 communities
+- 100 nodes · 124 edges · 13 communities (11 shown, 2 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `bd2329e9`
+- Built from commit: `052a55bc`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -22,18 +22,20 @@
 - [[_COMMUNITY_Community 4|Community 4]]
 - [[_COMMUNITY_Community 5|Community 5]]
 - [[_COMMUNITY_Community 6|Community 6]]
+- [[_COMMUNITY_Community 9|Community 9]]
+- [[_COMMUNITY_Community 11|Community 11]]
 
 ## God Nodes (most connected - your core abstractions)
-1. `scripts` - 5 edges
-2. `Navbar()` - 5 edges
-3. `ProductLogo()` - 4 edges
-4. `EcosystemIntro()` - 2 edges
-5. `RotatingText` - 2 edges
-6. `DBLiquid()` - 2 edges
-7. `ECOSYSTEM_DATA` - 2 edges
-8. `DBAssets()` - 2 edges
-9. `DBExpo()` - 2 edges
-10. `private` - 1 edges
+1. `Supaste — Clipboard History Manager for Mac` - 12 edges
+2. `Footer()` - 6 edges
+3. `Navbar()` - 6 edges
+4. `scripts` - 5 edges
+5. `ProductLogo()` - 4 edges
+6. `App()` - 2 edges
+7. `EcosystemIntro()` - 2 edges
+8. `hexToRgba()` - 2 edges
+9. `ElectricBorder()` - 2 edges
+10. `hexToRGB()` - 2 edges
 
 ## Surprising Connections (you probably didn't know these)
 - None detected - all connections are within the same source files.
@@ -41,23 +43,23 @@
 ## Import Cycles
 - None detected.
 
-## Communities (9 total, 0 thin omitted)
+## Communities (13 total, 2 thin omitted)
 
 ### Community 0 - "Community 0"
-Cohesion: 0.22
-Nodes (8): DBExpo(), EVENT_DETAILS, EXPLORE_CATEGORIES, fadeInUp, HIGHLIGHTS, INTERACTION_ICONS, PROJECT_INTERACTIONS, staggerContainer
+Cohesion: 0.14
+Nodes (14): Footer(), Navbar(), TABS, EVENT_DETAILS, EXPLORE_CATEGORIES, fadeInUp, HIGHLIGHTS, INTERACTION_ICONS (+6 more)
 
 ### Community 1 - "Community 1"
 Cohesion: 0.29
-Nodes (6): Navbar(), TABS, DBLiquid(), fadeInUp, staggerContainer, STEPS
+Nodes (6): Contact(), CONTACT_CHANNELS, fadeInUp, INITIAL_FORM, staggerContainer, SUBJECTS
 
 ### Community 2 - "Community 2"
 Cohesion: 0.25
 Nodes (7): AUDIENCES, BENEFITS, DBAssets(), fadeInUp, SERVICES, staggerContainer, STEPS
 
 ### Community 3 - "Community 3"
-Cohesion: 0.22
-Nodes (3): RotatingText, ECOSYSTEM_DATA, HOME_TAB
+Cohesion: 0.15
+Nodes (9): EcosystemIntro(), ORBIT_ICONS, PRODUCT_LABELS, ProductLogo(), RotatingText, DBExpo(), App(), ECOSYSTEM_DATA (+1 more)
 
 ### Community 4 - "Community 4"
 Cohesion: 0.15
@@ -68,17 +70,22 @@ Cohesion: 0.22
 Nodes (9): dependencies, framer-motion, gsap, ogl, react, react-dom, react-router-dom, serve (+1 more)
 
 ### Community 6 - "Community 6"
-Cohesion: 0.40
-Nodes (4): EcosystemIntro(), ORBIT_ICONS, PRODUCT_LABELS, ProductLogo()
+Cohesion: 0.15
+Nodes (12): Accessibility, Brand, Component Rule Expectations, Guideline Authoring Workflow, Mission, Quality Gates, Required Output Structure, Rules: Do (+4 more)
 
 ## Knowledge Gaps
-- **38 isolated node(s):** `name`, `private`, `version`, `type`, `dev` (+33 more)
+- **54 isolated node(s):** `name`, `private`, `version`, `type`, `dev` (+49 more)
   These have ≤1 connection - possible missing edges or undocumented components.
+- **2 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `dependencies` connect `Community 5` to `Community 4`?**
-  _High betweenness centrality (0.062) - this node is a cross-community bridge._
+  _High betweenness centrality (0.027) - this node is a cross-community bridge._
 - **What connects `name`, `private`, `version` to the rest of the system?**
-  _38 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _54 weakly-connected nodes found - possible documentation gaps or missing edges._
+- **Should `Community 0` be split into smaller, more focused modules?**
+  _Cohesion score 0.1437908496732026 - nodes in this community are weakly interconnected._
+- **Should `Community 3` be split into smaller, more focused modules?**
+  _Cohesion score 0.14619883040935672 - nodes in this community are weakly interconnected._
